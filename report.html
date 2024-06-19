@@ -1,0 +1,1499 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .logo {
+            max-width: 150px;
+            max-height: 150px;
+            width: auto;
+            height: auto;
+        }
+        .company-name {
+            margin: 10px 0;
+            font-size: 18px; /* Decreased font size */
+        }
+        .date-range {
+            text-align: left;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            margin-top: 20px;
+        }
+        .from-date,
+        .to-date {
+            margin: 5px 0;
+        }
+        .printed-date-container {
+            text-align: right;
+            margin-top: -20px; /* Adjust to align with header */
+        }
+        .printed-date {
+            font-size: 12px;
+            font-family: Arial, sans-serif;
+        }
+        .report-title {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 24px; /* Decreased font size */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="data:image/png;base64,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" alt="Company Logo">
+        <h1 class="company-name">PROLITE AUTOMATION</h1>
+        <div class="date-range">
+            <p class="from-date">From: 2024-05-10 16:22:12</p>
+            <p class="to-date">To: 2024-05-10 16:22:17</p>
+        </div>
+    </div>
+    <div class="printed-date-container">
+        <p class="printed-date">Report generated on: 2024-06-11 17:45:32</p>
+    </div>
+    <h1 class="report-title">Data From PLC S7-1200</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                <th>Id</th>
+                
+                <th>TimeStamp</th>
+                
+                <th>Name</th>
+                
+                <th>DataType</th>
+                
+                <th>Value</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                
+                <td>510049</td>
+                
+                <td>2024-05-13 12:32:13.097000</td>
+                
+                <td>Motor_ON_CMD</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510050</td>
+                
+                <td>2024-05-13 12:32:13.110000</td>
+                
+                <td>Motor_RunFeedback</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510051</td>
+                
+                <td>2024-05-13 12:32:13.120000</td>
+                
+                <td>Motor_Trip</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510052</td>
+                
+                <td>2024-05-13 12:32:13.130000</td>
+                
+                <td>Start</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510053</td>
+                
+                <td>2024-05-13 12:32:13.143000</td>
+                
+                <td>Stop</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510054</td>
+                
+                <td>2024-05-13 12:32:13.153000</td>
+                
+                <td>Actual_Speed</td>
+                
+                <td>REAL</td>
+                
+                <td>50.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510055</td>
+                
+                <td>2024-05-13 12:32:13.167000</td>
+                
+                <td>Actual_Current</td>
+                
+                <td>INT</td>
+                
+                <td>50.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510056</td>
+                
+                <td>2024-05-13 12:32:13.177000</td>
+                
+                <td>Actual_Voltage</td>
+                
+                <td>REAL</td>
+                
+                <td>31.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510057</td>
+                
+                <td>2024-05-13 12:32:13.190000</td>
+                
+                <td>Actual_Power</td>
+                
+                <td>INT</td>
+                
+                <td>100.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510058</td>
+                
+                <td>2024-05-13 12:32:13.200000</td>
+                
+                <td>Actual_Torque</td>
+                
+                <td>INT</td>
+                
+                <td>-150.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510059</td>
+                
+                <td>2024-05-13 12:32:13.213000</td>
+                
+                <td>Motor_ON_CMD_A</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510060</td>
+                
+                <td>2024-05-13 12:32:13.223000</td>
+                
+                <td>Motor_RunFeedback_A</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510061</td>
+                
+                <td>2024-05-13 12:32:13.237000</td>
+                
+                <td>Motor_Trip_A</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510062</td>
+                
+                <td>2024-05-13 12:32:13.250000</td>
+                
+                <td>Start_A</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510063</td>
+                
+                <td>2024-05-13 12:32:13.263000</td>
+                
+                <td>Stop_A</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510064</td>
+                
+                <td>2024-05-13 12:32:13.273000</td>
+                
+                <td>Actual_Speed_A</td>
+                
+                <td>REAL</td>
+                
+                <td>83.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510065</td>
+                
+                <td>2024-05-13 12:32:13.287000</td>
+                
+                <td>Actual_Current_A</td>
+                
+                <td>INT</td>
+                
+                <td>50.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510066</td>
+                
+                <td>2024-05-13 12:32:13.297000</td>
+                
+                <td>Actual_Voltage_A</td>
+                
+                <td>REAL</td>
+                
+                <td>83.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510067</td>
+                
+                <td>2024-05-13 12:32:13.307000</td>
+                
+                <td>Actual_Power_A</td>
+                
+                <td>INT</td>
+                
+                <td>100.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510068</td>
+                
+                <td>2024-05-13 12:32:13.320000</td>
+                
+                <td>Actual_Torque_A</td>
+                
+                <td>INT</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510069</td>
+                
+                <td>2024-05-13 12:32:13.333000</td>
+                
+                <td>Motor_ON_CMD_B</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510070</td>
+                
+                <td>2024-05-13 12:32:13.347000</td>
+                
+                <td>Motor_RunFeedback_B</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510071</td>
+                
+                <td>2024-05-13 12:32:13.360000</td>
+                
+                <td>Motor_Trip_B</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510072</td>
+                
+                <td>2024-05-13 12:32:13.387000</td>
+                
+                <td>Start_B</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510073</td>
+                
+                <td>2024-05-13 12:32:13.410000</td>
+                
+                <td>Stop_B</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510074</td>
+                
+                <td>2024-05-13 12:32:13.423000</td>
+                
+                <td>Actual_Speed_B</td>
+                
+                <td>REAL</td>
+                
+                <td>19.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510075</td>
+                
+                <td>2024-05-13 12:32:13.450000</td>
+                
+                <td>Actual_Current_B</td>
+                
+                <td>INT</td>
+                
+                <td>50.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510076</td>
+                
+                <td>2024-05-13 12:32:13.487000</td>
+                
+                <td>Actual_Voltage_B</td>
+                
+                <td>REAL</td>
+                
+                <td>41.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510077</td>
+                
+                <td>2024-05-13 12:32:13.503000</td>
+                
+                <td>Actual_Power_B</td>
+                
+                <td>INT</td>
+                
+                <td>-100.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510078</td>
+                
+                <td>2024-05-13 12:32:13.517000</td>
+                
+                <td>Actual_Torque_B</td>
+                
+                <td>INT</td>
+                
+                <td>30.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510079</td>
+                
+                <td>2024-05-13 12:32:13.527000</td>
+                
+                <td>Motor_ON_CMD_C</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510080</td>
+                
+                <td>2024-05-13 12:32:13.540000</td>
+                
+                <td>Motor_RunFeedback_C</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510081</td>
+                
+                <td>2024-05-13 12:32:13.553000</td>
+                
+                <td>Motor_Trip_C</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510082</td>
+                
+                <td>2024-05-13 12:32:13.567000</td>
+                
+                <td>Start_C</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510083</td>
+                
+                <td>2024-05-13 12:32:13.577000</td>
+                
+                <td>Stop_C</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510084</td>
+                
+                <td>2024-05-13 12:32:13.590000</td>
+                
+                <td>Actual_Speed_C</td>
+                
+                <td>REAL</td>
+                
+                <td>97.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510085</td>
+                
+                <td>2024-05-13 12:32:13.603000</td>
+                
+                <td>Actual_Current_C</td>
+                
+                <td>INT</td>
+                
+                <td>-50.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510086</td>
+                
+                <td>2024-05-13 12:32:13.613000</td>
+                
+                <td>Actual_Voltage_C</td>
+                
+                <td>REAL</td>
+                
+                <td>97.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510087</td>
+                
+                <td>2024-05-13 12:32:13.627000</td>
+                
+                <td>Actual_Power_C</td>
+                
+                <td>INT</td>
+                
+                <td>-100.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510088</td>
+                
+                <td>2024-05-13 12:32:13.637000</td>
+                
+                <td>Actual_Torque_C</td>
+                
+                <td>INT</td>
+                
+                <td>30.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510089</td>
+                
+                <td>2024-05-13 12:32:13.650000</td>
+                
+                <td>Motor_ON_CMD_D</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510090</td>
+                
+                <td>2024-05-13 12:32:13.663000</td>
+                
+                <td>Motor_RunFeedback_D</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510091</td>
+                
+                <td>2024-05-13 12:32:13.673000</td>
+                
+                <td>Motor_Trip_D</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510092</td>
+                
+                <td>2024-05-13 12:32:13.687000</td>
+                
+                <td>Start_D</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510093</td>
+                
+                <td>2024-05-13 12:32:13.697000</td>
+                
+                <td>Stop_D</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510094</td>
+                
+                <td>2024-05-13 12:32:13.707000</td>
+                
+                <td>Actual_Speed_D</td>
+                
+                <td>REAL</td>
+                
+                <td>97.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510095</td>
+                
+                <td>2024-05-13 12:32:13.717000</td>
+                
+                <td>Actual_Current_D</td>
+                
+                <td>INT</td>
+                
+                <td>-50.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510096</td>
+                
+                <td>2024-05-13 12:32:13.727000</td>
+                
+                <td>Actual_Voltage_D</td>
+                
+                <td>REAL</td>
+                
+                <td>97.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510097</td>
+                
+                <td>2024-05-13 12:32:13.740000</td>
+                
+                <td>Actual_Power_D</td>
+                
+                <td>INT</td>
+                
+                <td>-100.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510098</td>
+                
+                <td>2024-05-13 12:32:13.753000</td>
+                
+                <td>Actual_Torque_D</td>
+                
+                <td>INT</td>
+                
+                <td>30.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510099</td>
+                
+                <td>2024-05-13 12:32:17.957000</td>
+                
+                <td>Motor_ON_CMD</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510100</td>
+                
+                <td>2024-05-13 12:32:17.967000</td>
+                
+                <td>Motor_RunFeedback</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510101</td>
+                
+                <td>2024-05-13 12:32:17.977000</td>
+                
+                <td>Motor_Trip</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510102</td>
+                
+                <td>2024-05-13 12:32:17.987000</td>
+                
+                <td>Start</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510103</td>
+                
+                <td>2024-05-13 12:32:18</td>
+                
+                <td>Stop</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510104</td>
+                
+                <td>2024-05-13 12:32:18.010000</td>
+                
+                <td>Actual_Speed</td>
+                
+                <td>REAL</td>
+                
+                <td>50.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510105</td>
+                
+                <td>2024-05-13 12:32:18.020000</td>
+                
+                <td>Actual_Current</td>
+                
+                <td>INT</td>
+                
+                <td>-50.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510106</td>
+                
+                <td>2024-05-13 12:32:18.037000</td>
+                
+                <td>Actual_Voltage</td>
+                
+                <td>REAL</td>
+                
+                <td>31.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510107</td>
+                
+                <td>2024-05-13 12:32:18.047000</td>
+                
+                <td>Actual_Power</td>
+                
+                <td>INT</td>
+                
+                <td>-100.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510108</td>
+                
+                <td>2024-05-13 12:32:18.057000</td>
+                
+                <td>Actual_Torque</td>
+                
+                <td>INT</td>
+                
+                <td>150.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510109</td>
+                
+                <td>2024-05-13 12:32:18.070000</td>
+                
+                <td>Motor_ON_CMD_A</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510110</td>
+                
+                <td>2024-05-13 12:32:18.080000</td>
+                
+                <td>Motor_RunFeedback_A</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510111</td>
+                
+                <td>2024-05-13 12:32:18.093000</td>
+                
+                <td>Motor_Trip_A</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510112</td>
+                
+                <td>2024-05-13 12:32:18.107000</td>
+                
+                <td>Start_A</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510113</td>
+                
+                <td>2024-05-13 12:32:18.117000</td>
+                
+                <td>Stop_A</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510114</td>
+                
+                <td>2024-05-13 12:32:18.127000</td>
+                
+                <td>Actual_Speed_A</td>
+                
+                <td>REAL</td>
+                
+                <td>83.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510115</td>
+                
+                <td>2024-05-13 12:32:18.137000</td>
+                
+                <td>Actual_Current_A</td>
+                
+                <td>INT</td>
+                
+                <td>-50.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510116</td>
+                
+                <td>2024-05-13 12:32:18.150000</td>
+                
+                <td>Actual_Voltage_A</td>
+                
+                <td>REAL</td>
+                
+                <td>83.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510117</td>
+                
+                <td>2024-05-13 12:32:18.160000</td>
+                
+                <td>Actual_Power_A</td>
+                
+                <td>INT</td>
+                
+                <td>-100.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510118</td>
+                
+                <td>2024-05-13 12:32:18.170000</td>
+                
+                <td>Actual_Torque_A</td>
+                
+                <td>INT</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510119</td>
+                
+                <td>2024-05-13 12:32:18.197000</td>
+                
+                <td>Motor_ON_CMD_B</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510120</td>
+                
+                <td>2024-05-13 12:32:18.237000</td>
+                
+                <td>Motor_RunFeedback_B</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510121</td>
+                
+                <td>2024-05-13 12:32:18.250000</td>
+                
+                <td>Motor_Trip_B</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510122</td>
+                
+                <td>2024-05-13 12:32:18.267000</td>
+                
+                <td>Start_B</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510123</td>
+                
+                <td>2024-05-13 12:32:18.277000</td>
+                
+                <td>Stop_B</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510124</td>
+                
+                <td>2024-05-13 12:32:18.290000</td>
+                
+                <td>Actual_Speed_B</td>
+                
+                <td>REAL</td>
+                
+                <td>19.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510125</td>
+                
+                <td>2024-05-13 12:32:18.300000</td>
+                
+                <td>Actual_Current_B</td>
+                
+                <td>INT</td>
+                
+                <td>-50.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510126</td>
+                
+                <td>2024-05-13 12:32:18.310000</td>
+                
+                <td>Actual_Voltage_B</td>
+                
+                <td>REAL</td>
+                
+                <td>41.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510127</td>
+                
+                <td>2024-05-13 12:32:18.323000</td>
+                
+                <td>Actual_Power_B</td>
+                
+                <td>INT</td>
+                
+                <td>-100.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510128</td>
+                
+                <td>2024-05-13 12:32:18.337000</td>
+                
+                <td>Actual_Torque_B</td>
+                
+                <td>INT</td>
+                
+                <td>30.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510129</td>
+                
+                <td>2024-05-13 12:32:18.350000</td>
+                
+                <td>Motor_ON_CMD_C</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510130</td>
+                
+                <td>2024-05-13 12:32:18.360000</td>
+                
+                <td>Motor_RunFeedback_C</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510131</td>
+                
+                <td>2024-05-13 12:32:18.370000</td>
+                
+                <td>Motor_Trip_C</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510132</td>
+                
+                <td>2024-05-13 12:32:18.387000</td>
+                
+                <td>Start_C</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510133</td>
+                
+                <td>2024-05-13 12:32:18.400000</td>
+                
+                <td>Stop_C</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510134</td>
+                
+                <td>2024-05-13 12:32:18.410000</td>
+                
+                <td>Actual_Speed_C</td>
+                
+                <td>REAL</td>
+                
+                <td>97.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510135</td>
+                
+                <td>2024-05-13 12:32:18.420000</td>
+                
+                <td>Actual_Current_C</td>
+                
+                <td>INT</td>
+                
+                <td>-50.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510136</td>
+                
+                <td>2024-05-13 12:32:18.430000</td>
+                
+                <td>Actual_Voltage_C</td>
+                
+                <td>REAL</td>
+                
+                <td>97.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510137</td>
+                
+                <td>2024-05-13 12:32:18.443000</td>
+                
+                <td>Actual_Power_C</td>
+                
+                <td>INT</td>
+                
+                <td>-100.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510138</td>
+                
+                <td>2024-05-13 12:32:18.453000</td>
+                
+                <td>Actual_Torque_C</td>
+                
+                <td>INT</td>
+                
+                <td>30.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510139</td>
+                
+                <td>2024-05-13 12:32:18.467000</td>
+                
+                <td>Motor_ON_CMD_D</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510140</td>
+                
+                <td>2024-05-13 12:32:18.477000</td>
+                
+                <td>Motor_RunFeedback_D</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510141</td>
+                
+                <td>2024-05-13 12:32:18.490000</td>
+                
+                <td>Motor_Trip_D</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510142</td>
+                
+                <td>2024-05-13 12:32:18.500000</td>
+                
+                <td>Start_D</td>
+                
+                <td>BOOL</td>
+                
+                <td>1.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510143</td>
+                
+                <td>2024-05-13 12:32:18.510000</td>
+                
+                <td>Stop_D</td>
+                
+                <td>BOOL</td>
+                
+                <td>0.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510144</td>
+                
+                <td>2024-05-13 12:32:18.523000</td>
+                
+                <td>Actual_Speed_D</td>
+                
+                <td>REAL</td>
+                
+                <td>98.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510145</td>
+                
+                <td>2024-05-13 12:32:18.537000</td>
+                
+                <td>Actual_Current_D</td>
+                
+                <td>INT</td>
+                
+                <td>50.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510146</td>
+                
+                <td>2024-05-13 12:32:18.547000</td>
+                
+                <td>Actual_Voltage_D</td>
+                
+                <td>REAL</td>
+                
+                <td>98.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510147</td>
+                
+                <td>2024-05-13 12:32:18.560000</td>
+                
+                <td>Actual_Power_D</td>
+                
+                <td>INT</td>
+                
+                <td>100.0</td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>510148</td>
+                
+                <td>2024-05-13 12:32:18.573000</td>
+                
+                <td>Actual_Torque_D</td>
+                
+                <td>INT</td>
+                
+                <td>30.0</td>
+                
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

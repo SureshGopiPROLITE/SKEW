@@ -1,0 +1,167 @@
+from PyQt5.QtWidgets import QApplication, QFileDialog, QMainWindow, QWidget, QVBoxLayout, QLineEdit, QPushButton, QLabel, QDialog, QHeaderView,QHBoxLayout,  QSpacerItem, QSizePolicy
+from PyQt5.QtGui import *
+from PyQt5.uic import loadUi
+from PyQt5.QtCore import *
+from PyQt5.QtCore import QTimer
+from PyQt5 import QtWidgets, QtGui, uic
+from PyQt5 import QtCore, QtWidgets, QtWebEngineWidgets
+from PyQt5.QtWebEngineWidgets import QWebEngineView
+
+
+import plotly.express as px
+import plotly.graph_objects as go
+
+class graphView(QDialog):
+    def graph(self):
+        self.Ui.progressBar.show()
+        layout = QDialog(self)
+        vlayout = QVBoxLayout()
+        layout.setWindowTitle("Plot Graph")
+        self.button = QtWidgets.QPushButton('Plot', self)
+        self.browser = QtWebEngineWidgets.QWebEngineView(self)
+
+        
+        vlayout.addWidget(self.button, alignment=QtCore.Qt.AlignHCenter)
+        vlayout.addWidget(self.browser)
+
+        # Enable the maximize button
+        layout.setWindowFlags(self.windowFlags() | Qt.WindowMaximizeButtonHint)
+      
+        self.button.clicked.connect(self.plot_graph)
+        layout.resize(1000,800)
+        layout.setLayout(vlayout)
+        layout.exec_()
+        self.Ui.progressBar.hide()
+
+
+    def plot_graph(self):
+        try:
+            self.Ui.progressBar.show()
+            # self.browser = self.Ui.plotGraph
+            df = self.df
+            print("DF completed")
+            # fig = px.line(df, x="TimeStamp", y="Value", color="Name")
+            fig = px.line(df, x="TimeStamp", y="Value", color = "Name", markers=True) 
+            #fig.update_yaxes(range(0,100))   
+            print("Fig completed")                                                                              
+            self.browser.setHtml(fig.to_html(include_plotlyjs='cdn'))  
+            # for i in range (1,20):
+            #     df1 = df.head(10000*i)
+            #     fig = px.line(df1, x="TimeStamp", y="Value", color = "Name", markers=True)
+            #     self.browser.setHtml(fig.to_html(include_plotlyjs='cdn')) 
+            #     time.sleep(5000)
+            print("HTML completed") 
+            self.Ui.progressBar.hide()
+        except Exception as e:
+            print(f"Error: {e}")
+
+    def barGraph(self):
+            try:
+                # self.Ui.verticalLayout_web.removeWidget(self)
+                while self.Ui.verticalLayout_bar.count():
+                    widget = self.Ui.verticalLayout_bar.takeAt(0).widget()
+                    if widget is  None:
+                        widget.deleteLater()
+                
+                self.browser = QWebEngineView(self.Ui.homePage)  # Create the QWebEngineView
+
+                self.browser.setSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+                self.browser.setMinimumSize(721, 471) 
+
+                self.browser.setStyleSheet("color: #171725; background-color: #F7F8F9; font-size: 16px; font-family: Open Sans;")
+               
+                self.Ui.verticalLayout_bar.addWidget(self.browser)
+
+                self.show_bar()
+
+            
+            except Exception as e:
+                print(f"Error: {e}")
+    
+    def show_bar(self):
+        try:
+            sql = """
+                    SELECT TimeStamp, Value
+                    FROM plc_data
+                    WHERE TimeStamp >= DATEADD(WEEK, -1, GETDATE())
+                    """
+            self.df_bargh = pd.read_sql_query(sql, self.conn1)
+            df = self.df_bargh
+
+            df['TimeStamp'] = pd.to_datetime(df['TimeStamp'], errors='coerce', infer_datetime_format=True)
+
+            # Set the TimeStamp column as the index
+            df.set_index('TimeStamp', inplace=True)
+
+            # Resample by day and count the number of entries for each day
+            daily_counts = df.resample('D').size()
+
+            # Convert the resampled data into a DataFrame for plotting
+            daily_counts_df = daily_counts.reset_index(name='count')
+
+            # Create the bar graph using Plotly
+            fig = px.bar(daily_counts_df, x='TimeStamp', y='count', title='Count of Data Points per Day')
+
+            self.browser.setHtml(fig.to_html(include_plotlyjs='cdn'))
+
+        except Exception as e:
+            print(f"Error: {e}")
+
+    def speedGraph(self):
+        try:
+            # self.Ui.verticalLayout_web.removeWidget(self)
+            while self.Ui.verticalLayout_web.count():
+                widget = self.Ui.verticalLayout_web.takeAt(0).widget()
+                if widget is None:
+                    widget.deleteLater()
+            
+            self.browser = QWebEngineView(self.Ui.homePage)  # Create the QWebEngineView
+            self.browser.setSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+            self.browser.setMinimumSize(721, 471)
+            self.browser.setStyleSheet("color: #171725; background-color: #F7F8F9; font-size: 16px; font-family: Open Sans;")
+            
+            self.Ui.verticalLayout_web.addWidget(self.browser)
+
+            self.show_graph()
+
+        # self.button.clicked.connect(self.show_graph)
+        # self.resize(1000,800)
+        # self.show_graph()
+        # Set the URL to load if needed
+        # self.browser.setUrl(QUrl("https://www.example.com")) 
+        except Exception as e:
+            print(f"Error: {e}")
+
+
+    def show_graph(self):
+        try:
+            if self.local_connStatus == True:
+                # Convert self.Total_seconds to float or int, depending on your data type
+                value = float(self.Total_seconds)  # Assuming Total_seconds is a string representation of a number
+                
+                fig = go.Figure(go.Indicator(
+                    mode="gauge+number",
+                    value=value,
+                    domain={'x': [0, 1], 'y': [0, 1]},
+                    title={'text': "Speed in sec of Data Fetching from PLC"},
+                    gauge = {
+                'axis': {'range': [None, 2], 'tickwidth': 1, 'tickcolor': "darkblue"},
+                'bar': {'color': "darkblue"},
+                'bgcolor': "white",
+                'borderwidth': 2,
+                'bordercolor': "gray",
+                'steps': [
+                    {'range': [0, 0.5], 'color': 'cyan'},
+                    {'range': [0.5, 1], 'color': 'royalblue'}],
+                'threshold': {
+                    'line': {'color': "red", 'width': 4},
+                    'thickness': 0.75,
+                    'value': 1.8}}))
+                fig.update_layout(paper_bgcolor = "#ECF1F7", font = {'color': "#171725", 'family': "Black"})
+                
+            
+                self.browser.setHtml(fig.to_html(include_plotlyjs='cdn'))
+
+
+        except Exception as e:
+            print(f"Error: {e}")
