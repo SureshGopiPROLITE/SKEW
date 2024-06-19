@@ -23,7 +23,7 @@ import pandas as pd
 import concurrent.futures
 from tkinter import Tk, filedialog
 
-from chats import graphs
+from charts import graphs
 from plc_data_ui import Ui_MainWindow
 from database import db_con as db_con
 from authorization import auth
