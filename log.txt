@@ -12802,3 +12802,1153 @@ File Backuped Successful
 File Backuped Successful
 File Backuped Successful
 >>>>>>> 5e54e682d0c7680a3d07d93e7ef647274c0cd291
+Info  - 2024-06-20 11:23:29.745529 -  PLC is connected 
+Logging  - 2024-06-20 11:23:29.833 -  Data fetching from PLC in 5.669secs
+Error - 2024-06-20 11:23:39.711925 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 11:23:39.711925 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 11:23:49.745577 -  PLC is connected 
+Logging  - 2024-06-20 11:23:49.807 -  Data fetching from PLC in 5.693secs
+Logging  - 2024-06-20 11:23:55.998 -  Data fetching from PLC in 5.729secs
+Logging  - 2024-06-20 11:24:09.737 -  Data fetching from PLC in 5.745secs
+Logging  - 2024-06-20 11:24:19.727 -  Data fetching from PLC in 5.696secs
+Logging  - 2024-06-20 11:24:29.734 -  Data fetching from PLC in 5.712secs
+Logging  - 2024-06-20 11:24:39.731 -  Data fetching from PLC in 5.687secs
+Logging  - 2024-06-20 11:24:49.742 -  Data fetching from PLC in 5.693secs
+Logging  - 2024-06-20 11:24:59.749 -  Data fetching from PLC in 5.732secs
+Logging  - 2024-06-20 11:25:09.765 -  Data fetching from PLC in 5.677secs
+Logging  - 2024-06-20 11:25:19.765 -  Data fetching from PLC in 5.784secs
+Logging  - 2024-06-20 11:25:29.769 -  Data fetching from PLC in 5.686secs
+Logging  - 2024-06-20 11:25:39.794 -  Data fetching from PLC in 5.653secs
+"Alert"  - 2024-06-20 11:25:48.605326 -  PLC is Disconnected 
+Info  - 2024-06-20 12:46:52.716163 -  PLC is connected 
+Logging  - 2024-06-20 12:46:52.796 -  Data fetching from PLC in 5.768secs
+Error - 2024-06-20 12:47:02.711139 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 12:47:02.711139 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 12:47:12.734115 -  PLC is connected 
+Logging  - 2024-06-20 12:47:12.798 -  Data fetching from PLC in 5.725secs
+Logging  - 2024-06-20 12:47:18.764 -  Data fetching from PLC in 5.649secs
+Logging  - 2024-06-20 12:47:32.707 -  Data fetching from PLC in 5.707secs
+Logging  - 2024-06-20 12:47:42.730 -  Data fetching from PLC in 5.75secs
+Logging  - 2024-06-20 12:47:52.732 -  Data fetching from PLC in 5.711secs
+Logging  - 2024-06-20 12:48:02.731 -  Data fetching from PLC in 5.7secs
+Logging  - 2024-06-20 12:48:12.734 -  Data fetching from PLC in 5.769secs
+Logging  - 2024-06-20 12:48:22.734 -  Data fetching from PLC in 5.678secs
+Logging  - 2024-06-20 12:48:32.742 -  Data fetching from PLC in 5.735secs
+Logging  - 2024-06-20 12:48:42.753 -  Data fetching from PLC in 5.76secs
+Logging  - 2024-06-20 12:48:52.768 -  Data fetching from PLC in 5.642secs
+Logging  - 2024-06-20 12:49:02.755 -  Data fetching from PLC in 5.788secs
+Logging  - 2024-06-20 12:49:12.754 -  Data fetching from PLC in 5.78secs
+Logging  - 2024-06-20 12:49:22.770 -  Data fetching from PLC in 5.674secs
+Logging  - 2024-06-20 12:49:32.790 -  Data fetching from PLC in 5.744secs
+Logging  - 2024-06-20 12:49:42.789 -  Data fetching from PLC in 5.675secs
+Logging  - 2024-06-20 12:49:52.808 -  Data fetching from PLC in 5.726secs
+Logging  - 2024-06-20 12:50:02.815 -  Data fetching from PLC in 5.783secs
+Logging  - 2024-06-20 12:50:12.834 -  Data fetching from PLC in 5.67secs
+Logging  - 2024-06-20 12:50:22.846 -  Data fetching from PLC in 5.589secs
+Logging  - 2024-06-20 12:50:32.868 -  Data fetching from PLC in 5.769secs
+Logging  - 2024-06-20 12:50:42.864 -  Data fetching from PLC in 5.679secs
+Logging  - 2024-06-20 12:50:52.872 -  Data fetching from PLC in 5.755secs
+Logging  - 2024-06-20 12:51:02.876 -  Data fetching from PLC in 5.783secs
+Logging  - 2024-06-20 12:51:12.866 -  Data fetching from PLC in 5.731secs
+Logging  - 2024-06-20 12:51:22.887 -  Data fetching from PLC in 6.166secs
+"Alert"  - 2024-06-20 12:51:31.768624 -  PLC is Disconnected 
+Info  - 2024-06-20 12:54:58.487885 -  PLC is connected 
+Logging  - 2024-06-20 12:54:58.557 -  Data fetching from PLC in 5.674secs
+Error - 2024-06-20 12:55:08.492552 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 12:55:08.492552 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 12:55:18.699198 -  PLC is connected 
+Logging  - 2024-06-20 12:55:18.773 -  Data fetching from PLC in 6.576secs
+Logging  - 2024-06-20 12:55:25.899 -  Data fetching from PLC in 5.635secs
+Logging  - 2024-06-20 12:55:38.519 -  Data fetching from PLC in 5.622secs
+Logging  - 2024-06-20 12:55:48.539 -  Data fetching from PLC in 5.966secs
+Logging  - 2024-06-20 12:55:58.544 -  Data fetching from PLC in 5.685secs
+Logging  - 2024-06-20 12:56:08.544 -  Data fetching from PLC in 5.638secs
+Logging  - 2024-06-20 12:56:18.537 -  Data fetching from PLC in 5.626secs
+Logging  - 2024-06-20 12:56:28.559 -  Data fetching from PLC in 5.582secs
+Logging  - 2024-06-20 12:56:38.550 -  Data fetching from PLC in 5.592secs
+Logging  - 2024-06-20 12:56:48.564 -  Data fetching from PLC in 5.623secs
+Logging  - 2024-06-20 12:56:58.568 -  Data fetching from PLC in 5.639secs
+Logging  - 2024-06-20 12:57:08.564 -  Data fetching from PLC in 5.587secs
+Logging  - 2024-06-20 12:57:18.589 -  Data fetching from PLC in 5.809secs
+Logging  - 2024-06-20 12:57:28.591 -  Data fetching from PLC in 5.712secs
+Logging  - 2024-06-20 12:57:38.598 -  Data fetching from PLC in 5.68secs
+Logging  - 2024-06-20 12:57:48.610 -  Data fetching from PLC in 5.768secs
+Logging  - 2024-06-20 12:57:58.604 -  Data fetching from PLC in 5.653secs
+Logging  - 2024-06-20 12:58:08.613 -  Data fetching from PLC in 5.726secs
+Logging  - 2024-06-20 12:58:18.639 -  Data fetching from PLC in 5.757secs
+Logging  - 2024-06-20 12:58:28.640 -  Data fetching from PLC in 5.596secs
+Logging  - 2024-06-20 12:58:38.645 -  Data fetching from PLC in 5.729secs
+Logging  - 2024-06-20 12:58:48.648 -  Data fetching from PLC in 5.715secs
+Logging  - 2024-06-20 12:58:58.654 -  Data fetching from PLC in 6.0secs
+Logging  - 2024-06-20 12:59:08.666 -  Data fetching from PLC in 7.867secs
+Logging  - 2024-06-20 12:59:18.662 -  Data fetching from PLC in 7.84secs
+Logging  - 2024-06-20 12:59:28.684 -  Data fetching from PLC in 7.818secs
+Logging  - 2024-06-20 12:59:38.692 -  Data fetching from PLC in 7.837secs
+Logging  - 2024-06-20 12:59:48.697 -  Data fetching from PLC in 7.858secs
+Logging  - 2024-06-20 12:59:58.716 -  Data fetching from PLC in 7.804secs
+Logging  - 2024-06-20 13:00:08.715 -  Data fetching from PLC in 7.988secs
+Logging  - 2024-06-20 13:00:18.715 -  Data fetching from PLC in 7.927secs
+Logging  - 2024-06-20 13:00:28.705 -  Data fetching from PLC in 7.857secs
+Logging  - 2024-06-20 13:00:38.708 -  Data fetching from PLC in 8.023secs
+Logging  - 2024-06-20 13:00:48.725 -  Data fetching from PLC in 8.007secs
+Logging  - 2024-06-20 13:00:58.731 -  Data fetching from PLC in 7.983secs
+Logging  - 2024-06-20 13:01:08.724 -  Data fetching from PLC in 7.931secs
+Logging  - 2024-06-20 13:01:18.741 -  Data fetching from PLC in 7.901secs
+Logging  - 2024-06-20 13:01:28.737 -  Data fetching from PLC in 7.889secs
+Logging  - 2024-06-20 13:01:38.743 -  Data fetching from PLC in 7.875secs
+Logging  - 2024-06-20 13:01:48.754 -  Data fetching from PLC in 7.901secs
+Logging  - 2024-06-20 13:01:58.747 -  Data fetching from PLC in 7.938secs
+Logging  - 2024-06-20 13:02:08.746 -  Data fetching from PLC in 7.87secs
+Logging  - 2024-06-20 13:02:18.758 -  Data fetching from PLC in 7.839secs
+Logging  - 2024-06-20 13:02:28.779 -  Data fetching from PLC in 7.829secs
+Logging  - 2024-06-20 13:02:38.787 -  Data fetching from PLC in 7.869secs
+Logging  - 2024-06-20 13:02:48.785 -  Data fetching from PLC in 7.923secs
+Logging  - 2024-06-20 13:02:58.785 -  Data fetching from PLC in 7.896secs
+Logging  - 2024-06-20 13:03:08.805 -  Data fetching from PLC in 7.84secs
+Logging  - 2024-06-20 13:03:18.819 -  Data fetching from PLC in 7.866secs
+Logging  - 2024-06-20 13:03:28.844 -  Data fetching from PLC in 7.816secs
+Logging  - 2024-06-20 13:03:38.846 -  Data fetching from PLC in 7.832secs
+Logging  - 2024-06-20 13:03:48.850 -  Data fetching from PLC in 7.849secs
+Logging  - 2024-06-20 13:03:58.867 -  Data fetching from PLC in 7.821secs
+Logging  - 2024-06-20 13:04:08.881 -  Data fetching from PLC in 7.834secs
+Logging  - 2024-06-20 13:04:18.894 -  Data fetching from PLC in 8.001secs
+Logging  - 2024-06-20 13:04:28.922 -  Data fetching from PLC in 7.797secs
+Logging  - 2024-06-20 13:04:38.910 -  Data fetching from PLC in 8.239secs
+Logging  - 2024-06-20 13:04:48.918 -  Data fetching from PLC in 5.641secs
+"Alert"  - 2024-06-20 13:04:58.232066 -  PLC is Disconnected 
+Info  - 2024-06-20 13:05:59.321347 -  PLC is connected 
+Logging  - 2024-06-20 13:05:59.386 -  Data fetching from PLC in 5.686secs
+Error - 2024-06-20 13:06:09.318039 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 13:06:09.318039 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 13:06:19.322269 -  PLC is connected 
+Logging  - 2024-06-20 13:06:19.386 -  Data fetching from PLC in 5.763secs
+Logging  - 2024-06-20 13:06:25.554 -  Data fetching from PLC in 5.737secs
+Logging  - 2024-06-20 13:06:39.319 -  Data fetching from PLC in 5.792secs
+Logging  - 2024-06-20 13:06:49.331 -  Data fetching from PLC in 5.686secs
+Logging  - 2024-06-20 13:06:59.354 -  Data fetching from PLC in 5.673secs
+Logging  - 2024-06-20 13:07:09.375 -  Data fetching from PLC in 5.823secs
+Logging  - 2024-06-20 13:07:19.386 -  Data fetching from PLC in 5.664secs
+Logging  - 2024-06-20 13:07:29.386 -  Data fetching from PLC in 5.693secs
+Logging  - 2024-06-20 13:07:39.407 -  Data fetching from PLC in 5.745secs
+Logging  - 2024-06-20 13:07:49.412 -  Data fetching from PLC in 5.609secs
+Logging  - 2024-06-20 13:07:59.436 -  Data fetching from PLC in 5.609secs
+Logging  - 2024-06-20 13:08:09.452 -  Data fetching from PLC in 5.753secs
+Logging  - 2024-06-20 13:08:19.454 -  Data fetching from PLC in 5.661secs
+Logging  - 2024-06-20 13:08:29.455 -  Data fetching from PLC in 5.724secs
+Logging  - 2024-06-20 13:08:39.451 -  Data fetching from PLC in 5.702secs
+Logging  - 2024-06-20 13:08:49.440 -  Data fetching from PLC in 5.639secs
+Logging  - 2024-06-20 13:09:00.980 -  Data fetching from PLC in 5.697secs
+Logging  - 2024-06-20 13:09:09.463 -  Data fetching from PLC in 5.643secs
+Logging  - 2024-06-20 13:09:19.464 -  Data fetching from PLC in 5.755secs
+Logging  - 2024-06-20 13:09:29.464 -  Data fetching from PLC in 5.699secs
+Logging  - 2024-06-20 13:09:39.462 -  Data fetching from PLC in 5.626secs
+Logging  - 2024-06-20 13:09:49.484 -  Data fetching from PLC in 5.707secs
+Logging  - 2024-06-20 13:09:59.486 -  Data fetching from PLC in 5.712secs
+Logging  - 2024-06-20 13:10:09.472 -  Data fetching from PLC in 5.68secs
+"Alert"  - 2024-06-20 13:10:16.747970 -  PLC is Disconnected 
+Info  - 2024-06-20 13:28:40.364680 -  PLC is connected 
+Logging  - 2024-06-20 13:28:40.434 -  Data fetching from PLC in 5.757secs
+Error - 2024-06-20 13:28:50.363920 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 13:28:50.363920 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 13:29:00.371745 -  PLC is connected 
+Logging  - 2024-06-20 13:29:00.436 -  Data fetching from PLC in 5.698secs
+Logging  - 2024-06-20 13:29:06.437 -  Data fetching from PLC in 5.601secs
+Logging  - 2024-06-20 13:29:20.385 -  Data fetching from PLC in 5.693secs
+Logging  - 2024-06-20 13:29:30.389 -  Data fetching from PLC in 5.717secs
+Logging  - 2024-06-20 13:29:40.400 -  Data fetching from PLC in 5.614secs
+Logging  - 2024-06-20 13:29:50.421 -  Data fetching from PLC in 5.746secs
+Logging  - 2024-06-20 13:30:00.429 -  Data fetching from PLC in 5.663secs
+Logging  - 2024-06-20 13:30:10.444 -  Data fetching from PLC in 5.673secs
+Logging  - 2024-06-20 13:30:20.444 -  Data fetching from PLC in 5.699secs
+Logging  - 2024-06-20 13:30:30.456 -  Data fetching from PLC in 5.639secs
+Logging  - 2024-06-20 13:30:40.479 -  Data fetching from PLC in 5.683secs
+Logging  - 2024-06-20 13:30:50.487 -  Data fetching from PLC in 5.634secs
+Logging  - 2024-06-20 13:31:00.515 -  Data fetching from PLC in 5.656secs
+Logging  - 2024-06-20 13:31:10.518 -  Data fetching from PLC in 5.706secs
+Logging  - 2024-06-20 13:31:20.515 -  Data fetching from PLC in 7.881secs
+Logging  - 2024-06-20 13:31:30.532 -  Data fetching from PLC in 7.862secs
+Logging  - 2024-06-20 13:31:40.543 -  Data fetching from PLC in 7.845secs
+Logging  - 2024-06-20 13:31:50.542 -  Data fetching from PLC in 7.853secs
+Logging  - 2024-06-20 13:32:00.543 -  Data fetching from PLC in 7.916secs
+Logging  - 2024-06-20 13:32:10.541 -  Data fetching from PLC in 7.803secs
+Logging  - 2024-06-20 13:32:20.551 -  Data fetching from PLC in 7.883secs
+Logging  - 2024-06-20 13:32:30.576 -  Data fetching from PLC in 7.843secs
+Logging  - 2024-06-20 13:32:40.590 -  Data fetching from PLC in 7.827secs
+Logging  - 2024-06-20 13:32:50.597 -  Data fetching from PLC in 7.915secs
+Logging  - 2024-06-20 13:33:00.606 -  Data fetching from PLC in 7.83secs
+Logging  - 2024-06-20 13:33:10.611 -  Data fetching from PLC in 7.808secs
+Logging  - 2024-06-20 13:33:20.609 -  Data fetching from PLC in 7.799secs
+Logging  - 2024-06-20 13:33:30.610 -  Data fetching from PLC in 7.794secs
+Logging  - 2024-06-20 13:33:40.601 -  Data fetching from PLC in 7.827secs
+Logging  - 2024-06-20 13:33:50.604 -  Data fetching from PLC in 7.805secs
+Logging  - 2024-06-20 13:34:00.603 -  Data fetching from PLC in 7.81secs
+Logging  - 2024-06-20 13:34:10.618 -  Data fetching from PLC in 7.879secs
+Logging  - 2024-06-20 13:34:20.640 -  Data fetching from PLC in 7.806secs
+Logging  - 2024-06-20 13:34:30.651 -  Data fetching from PLC in 7.831secs
+Logging  - 2024-06-20 13:34:40.659 -  Data fetching from PLC in 7.794secs
+Logging  - 2024-06-20 13:34:50.656 -  Data fetching from PLC in 7.787secs
+Logging  - 2024-06-20 13:35:00.654 -  Data fetching from PLC in 7.836secs
+Logging  - 2024-06-20 13:35:10.671 -  Data fetching from PLC in 7.758secs
+Logging  - 2024-06-20 13:35:20.678 -  Data fetching from PLC in 7.818secs
+Logging  - 2024-06-20 13:35:30.700 -  Data fetching from PLC in 7.945secs
+Logging  - 2024-06-20 13:35:40.709 -  Data fetching from PLC in 7.761secs
+Logging  - 2024-06-20 13:35:50.711 -  Data fetching from PLC in 7.845secs
+Logging  - 2024-06-20 13:36:00.730 -  Data fetching from PLC in 7.815secs
+Logging  - 2024-06-20 13:36:10.738 -  Data fetching from PLC in 7.778secs
+Logging  - 2024-06-20 13:36:20.761 -  Data fetching from PLC in 7.823secs
+Logging  - 2024-06-20 13:36:30.780 -  Data fetching from PLC in 7.777secs
+Logging  - 2024-06-20 13:36:40.793 -  Data fetching from PLC in 7.784secs
+Logging  - 2024-06-20 13:36:50.806 -  Data fetching from PLC in 7.905secs
+Logging  - 2024-06-20 13:37:00.809 -  Data fetching from PLC in 7.826secs
+Logging  - 2024-06-20 13:37:10.807 -  Data fetching from PLC in 7.8secs
+Logging  - 2024-06-20 13:37:20.827 -  Data fetching from PLC in 7.809secs
+Logging  - 2024-06-20 13:37:30.843 -  Data fetching from PLC in 7.792secs
+Logging  - 2024-06-20 13:37:40.837 -  Data fetching from PLC in 7.794secs
+Logging  - 2024-06-20 13:37:50.836 -  Data fetching from PLC in 7.799secs
+Logging  - 2024-06-20 13:38:00.856 -  Data fetching from PLC in 7.829secs
+Logging  - 2024-06-20 13:38:10.872 -  Data fetching from PLC in 7.853secs
+Logging  - 2024-06-20 13:38:20.887 -  Data fetching from PLC in 7.78secs
+Logging  - 2024-06-20 13:38:30.880 -  Data fetching from PLC in 7.84secs
+Logging  - 2024-06-20 13:38:40.905 -  Data fetching from PLC in 7.783secs
+Logging  - 2024-06-20 13:38:50.907 -  Data fetching from PLC in 7.813secs
+Logging  - 2024-06-20 13:39:00.911 -  Data fetching from PLC in 7.832secs
+Logging  - 2024-06-20 13:39:10.913 -  Data fetching from PLC in 7.792secs
+Logging  - 2024-06-20 13:39:20.937 -  Data fetching from PLC in 7.821secs
+Logging  - 2024-06-20 13:39:30.947 -  Data fetching from PLC in 7.912secs
+Logging  - 2024-06-20 13:39:40.949 -  Data fetching from PLC in 7.835secs
+Logging  - 2024-06-20 13:39:50.943 -  Data fetching from PLC in 7.878secs
+Logging  - 2024-06-20 13:40:00.939 -  Data fetching from PLC in 7.863secs
+Logging  - 2024-06-20 13:40:10.954 -  Data fetching from PLC in 7.788secs
+Logging  - 2024-06-20 13:40:20.941 -  Data fetching from PLC in 7.825secs
+Logging  - 2024-06-20 13:40:30.969 -  Data fetching from PLC in 7.814secs
+Logging  - 2024-06-20 13:40:40.970 -  Data fetching from PLC in 7.788secs
+Logging  - 2024-06-20 13:40:50.981 -  Data fetching from PLC in 7.918secs
+Logging  - 2024-06-20 13:41:00.995 -  Data fetching from PLC in 7.783secs
+Logging  - 2024-06-20 13:41:10.996 -  Data fetching from PLC in 7.82secs
+Logging  - 2024-06-20 13:41:21.008 -  Data fetching from PLC in 7.849secs
+Logging  - 2024-06-20 13:41:31.004 -  Data fetching from PLC in 7.819secs
+Logging  - 2024-06-20 13:41:41.031 -  Data fetching from PLC in 7.806secs
+Logging  - 2024-06-20 13:41:51.039 -  Data fetching from PLC in 7.854secs
+Error - 2024-06-20 14:09:37.507244 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 14:09:37.507244 - Columns must be same length as key
+Info  - 2024-06-20 14:09:47.563152 -  PLC is connected 
+Logging  - 2024-06-20 14:09:47.635 -  Data fetching from PLC in 7.982secs
+Logging  - 2024-06-20 14:09:55.780 -  Data fetching from PLC in 8.518secs
+Logging  - 2024-06-20 14:10:07.519 -  Data fetching from PLC in 9.147secs
+Error - 2024-06-20 14:10:27.519978 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 14:10:37.557141 -  PLC is connected 
+Error - 2024-06-20 14:10:37.832468 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 14:10:37.832468 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Logging  - 2024-06-20 14:10:41.792 -  Data fetching from PLC in 10.329secs
+Logging  - 2024-06-20 14:10:57.563 -  Data fetching from PLC in 8.868secs
+Logging  - 2024-06-20 14:11:07.579 -  Data fetching from PLC in 8.804secs
+Logging  - 2024-06-20 14:11:17.604 -  Data fetching from PLC in 8.905secs
+Logging  - 2024-06-20 14:11:27.602 -  Data fetching from PLC in 8.871secs
+Logging  - 2024-06-20 14:11:37.613 -  Data fetching from PLC in 8.933secs
+Logging  - 2024-06-20 14:11:47.607 -  Data fetching from PLC in 8.941secs
+Logging  - 2024-06-20 14:11:57.609 -  Data fetching from PLC in 8.896secs
+Logging  - 2024-06-20 14:12:07.608 -  Data fetching from PLC in 8.978secs
+Logging  - 2024-06-20 14:12:17.613 -  Data fetching from PLC in 9.059secs
+Logging  - 2024-06-20 14:12:27.620 -  Data fetching from PLC in 8.897secs
+Logging  - 2024-06-20 14:12:37.617 -  Data fetching from PLC in 8.915secs
+Logging  - 2024-06-20 14:12:47.631 -  Data fetching from PLC in 8.929secs
+Logging  - 2024-06-20 14:12:57.651 -  Data fetching from PLC in 8.88secs
+Logging  - 2024-06-20 14:13:07.645 -  Data fetching from PLC in 8.97secs
+Logging  - 2024-06-20 14:13:17.671 -  Data fetching from PLC in 8.963secs
+Logging  - 2024-06-20 14:13:27.688 -  Data fetching from PLC in 8.862secs
+Logging  - 2024-06-20 14:13:37.688 -  Data fetching from PLC in 8.952secs
+Logging  - 2024-06-20 14:13:47.699 -  Data fetching from PLC in 8.979secs
+Logging  - 2024-06-20 14:13:57.701 -  Data fetching from PLC in 8.931secs
+Logging  - 2024-06-20 14:14:07.709 -  Data fetching from PLC in 8.907secs
+Logging  - 2024-06-20 14:14:17.723 -  Data fetching from PLC in 8.932secs
+Logging  - 2024-06-20 14:14:27.724 -  Data fetching from PLC in 8.575secs
+Logging  - 2024-06-20 14:14:37.733 -  Data fetching from PLC in 8.839secs
+Logging  - 2024-06-20 14:14:47.732 -  Data fetching from PLC in 8.919secs
+Logging  - 2024-06-20 14:14:57.737 -  Data fetching from PLC in 8.868secs
+Logging  - 2024-06-20 14:15:07.757 -  Data fetching from PLC in 8.999secs
+Logging  - 2024-06-20 14:15:17.773 -  Data fetching from PLC in 8.892secs
+Logging  - 2024-06-20 14:15:27.788 -  Data fetching from PLC in 8.981secs
+Logging  - 2024-06-20 14:15:37.811 -  Data fetching from PLC in 8.909secs
+Logging  - 2024-06-20 14:15:47.798 -  Data fetching from PLC in 8.967secs
+Error - 2024-06-20 14:16:07.828325 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 14:16:07.828325 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 14:16:17.850361 -  PLC is connected 
+Logging  - 2024-06-20 14:16:17.927 -  Data fetching from PLC in 12.525secs
+Logging  - 2024-06-20 14:16:30.868 -  Data fetching from PLC in 9.607secs
+Error - 2024-06-20 14:16:57.849542 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 14:16:57.849542 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 14:17:07.882002 -  PLC is connected 
+Logging  - 2024-06-20 14:17:07.977 -  Data fetching from PLC in 12.736secs
+Logging  - 2024-06-20 14:17:21.059 -  Data fetching from PLC in 9.967secs
+Logging  - 2024-06-20 14:17:37.869 -  Data fetching from PLC in 9.701secs
+Error - 2024-06-20 14:17:57.884264 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 14:17:57.884264 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 14:18:07.933044 -  PLC is connected 
+Logging  - 2024-06-20 14:18:08.002 -  Data fetching from PLC in 8.885secs
+Logging  - 2024-06-20 14:18:17.329 -  Data fetching from PLC in 8.909secs
+Logging  - 2024-06-20 14:18:27.894 -  Data fetching from PLC in 8.891secs
+Logging  - 2024-06-20 14:18:37.907 -  Data fetching from PLC in 8.823secs
+Logging  - 2024-06-20 14:18:47.913 -  Data fetching from PLC in 8.877secs
+Logging  - 2024-06-20 14:18:57.914 -  Data fetching from PLC in 8.746secs
+Logging  - 2024-06-20 14:19:07.924 -  Data fetching from PLC in 8.889secs
+Logging  - 2024-06-20 14:19:17.932 -  Data fetching from PLC in 8.897secs
+Logging  - 2024-06-20 14:19:27.948 -  Data fetching from PLC in 8.912secs
+Logging  - 2024-06-20 14:19:37.966 -  Data fetching from PLC in 8.929secs
+Logging  - 2024-06-20 14:19:47.966 -  Data fetching from PLC in 8.895secs
+Logging  - 2024-06-20 14:19:57.980 -  Data fetching from PLC in 9.427secs
+Error - 2024-06-20 14:20:17.977654 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 14:20:17.977654 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 14:20:28.174852 -  PLC is connected 
+Logging  - 2024-06-20 14:20:28.268 -  Data fetching from PLC in 10.044secs
+Logging  - 2024-06-20 14:20:38.611 -  Data fetching from PLC in 9.946secs
+Logging  - 2024-06-20 14:20:58.013 -  Data fetching from PLC in 9.039secs
+Logging  - 2024-06-20 14:21:08.012 -  Data fetching from PLC in 8.045secs
+Error - 2024-06-20 14:21:28.027440 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 14:21:28.027440 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 14:21:38.090958 -  PLC is connected 
+Logging  - 2024-06-20 14:21:38.215 -  Data fetching from PLC in 9.973secs
+Logging  - 2024-06-20 14:21:48.728 -  Data fetching from PLC in 9.665secs
+Error - 2024-06-20 14:22:18.032310 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 14:22:18.032310 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 14:22:28.623697 -  PLC is connected 
+Logging  - 2024-06-20 14:22:28.733 -  Data fetching from PLC in 10.154secs
+Logging  - 2024-06-20 14:22:39.139 -  Data fetching from PLC in 10.236secs
+Logging  - 2024-06-20 14:22:58.041 -  Data fetching from PLC in 9.464secs
+Error - 2024-06-20 14:23:18.053123 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 14:23:18.053123 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 14:23:28.071585 -  PLC is connected 
+Logging  - 2024-06-20 14:23:28.165 -  Data fetching from PLC in 7.696secs
+Logging  - 2024-06-20 14:23:36.079 -  Data fetching from PLC in 7.808secs
+"Alert"  - 2024-06-20 14:23:49.497600 -  PLC is Disconnected 
+Error - 2024-06-20 14:23:49.497600 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 14:43:38.581557 -  PLC is connected 
+Logging  - 2024-06-20 14:43:38.652 -  Data fetching from PLC in 5.738secs
+Error - 2024-06-20 14:43:48.566674 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 14:43:48.566674 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 14:43:58.585122 -  PLC is connected 
+Logging  - 2024-06-20 14:43:58.656 -  Data fetching from PLC in 7.852secs
+Logging  - 2024-06-20 14:44:06.745 -  Data fetching from PLC in 7.811secs
+Logging  - 2024-06-20 14:44:18.555 -  Data fetching from PLC in 7.968secs
+Logging  - 2024-06-20 14:44:28.554 -  Data fetching from PLC in 9.789secs
+Logging  - 2024-06-20 14:44:38.552 -  Data fetching from PLC in 10.009secs
+Error - 2024-06-20 14:44:58.560335 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 14:45:08.586105 -  PLC is connected 
+Error - 2024-06-20 14:45:08.675605 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 14:45:08.675605 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Logging  - 2024-06-20 14:45:18.517 -  Data fetching from PLC in 13.254secs
+Info  - 2024-06-20 14:47:15.994273 -  PLC is connected 
+Logging  - 2024-06-20 14:47:16.065 -  Data fetching from PLC in 6.788secs
+Error - 2024-06-20 14:47:25.986850 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 14:47:25.986850 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 14:47:36.013565 -  PLC is connected 
+Logging  - 2024-06-20 14:47:36.076 -  Data fetching from PLC in 7.011secs
+Logging  - 2024-06-20 14:47:43.323 -  Data fetching from PLC in 5.632secs
+Logging  - 2024-06-20 14:47:55.972 -  Data fetching from PLC in 5.709secs
+Logging  - 2024-06-20 14:48:05.975 -  Data fetching from PLC in 5.599secs
+Logging  - 2024-06-20 14:48:15.981 -  Data fetching from PLC in 5.634secs
+Logging  - 2024-06-20 14:48:25.982 -  Data fetching from PLC in 5.815secs
+Logging  - 2024-06-20 14:48:35.979 -  Data fetching from PLC in 5.619secs
+Logging  - 2024-06-20 14:48:45.980 -  Data fetching from PLC in 5.637secs
+Logging  - 2024-06-20 14:48:55.974 -  Data fetching from PLC in 5.694secs
+Logging  - 2024-06-20 14:49:05.980 -  Data fetching from PLC in 5.617secs
+Logging  - 2024-06-20 14:49:15.975 -  Data fetching from PLC in 5.682secs
+Logging  - 2024-06-20 14:49:25.980 -  Data fetching from PLC in 5.71secs
+Logging  - 2024-06-20 14:49:35.980 -  Data fetching from PLC in 5.656secs
+Logging  - 2024-06-20 14:49:45.980 -  Data fetching from PLC in 5.796secs
+Logging  - 2024-06-20 14:49:55.978 -  Data fetching from PLC in 5.737secs
+Logging  - 2024-06-20 14:50:05.972 -  Data fetching from PLC in 5.713secs
+Logging  - 2024-06-20 14:50:15.986 -  Data fetching from PLC in 5.656secs
+Logging  - 2024-06-20 14:50:25.981 -  Data fetching from PLC in 5.656secs
+Logging  - 2024-06-20 14:50:35.986 -  Data fetching from PLC in 5.661secs
+Logging  - 2024-06-20 14:50:45.976 -  Data fetching from PLC in 5.702secs
+Logging  - 2024-06-20 14:50:55.984 -  Data fetching from PLC in 6.312secs
+"Alert"  - 2024-06-20 14:51:05.031638 -  PLC is Disconnected 
+Info  - 2024-06-20 14:53:45.988894 -  PLC is connected 
+Logging  - 2024-06-20 14:53:46.058 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 14:53:46.209 -  Data fetching from PLC in 0.116secs
+Logging  - 2024-06-20 14:53:50.982 -  Data fetching from PLC in 0.115secs
+Logging  - 2024-06-20 14:53:55.976 -  Data fetching from PLC in 0.11secs
+Logging  - 2024-06-20 14:54:02.301 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 14:54:05.971 -  Data fetching from PLC in 0.112secs
+"Alert"  - 2024-06-20 14:54:10.531834 -  PLC is Disconnected 
+Info  - 2024-06-20 14:54:48.929874 -  PLC is connected 
+Logging  - 2024-06-20 14:54:48.994 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 14:54:49.130 -  Data fetching from PLC in 0.109secs
+Logging  - 2024-06-20 14:54:53.918 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 14:54:58.912 -  Data fetching from PLC in 0.108secs
+Logging  - 2024-06-20 14:55:03.913 -  Data fetching from PLC in 0.114secs
+Info  - 2024-06-20 14:56:21.241631 -  PLC is connected 
+Logging  - 2024-06-20 14:56:21.310 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 14:56:21.445 -  Data fetching from PLC in 0.11secs
+Logging  - 2024-06-20 14:56:26.228 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 14:56:31.225 -  Data fetching from PLC in 0.109secs
+Logging  - 2024-06-20 14:56:36.225 -  Data fetching from PLC in 0.108secs
+Info  - 2024-06-20 14:59:04.180173 -  PLC is connected 
+Info  - 2024-06-20 15:00:50.805293 -  PLC is connected 
+Info  - 2024-06-20 15:05:25.733197 -  PLC is connected 
+Info  - 2024-06-20 15:06:53.245410 -  PLC is connected 
+Logging  - 2024-06-20 15:06:53.319 -  Data fetching from PLC in 0.127secs
+Logging  - 2024-06-20 15:06:53.476 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:06:58.230 -  Data fetching from PLC in 0.111secs
+Error - 2024-06-20 15:07:03.235945 - Columns must be same length as key
+Info  - 2024-06-20 15:07:08.237991 -  PLC is connected 
+Error - 2024-06-20 15:07:08.299220 - Columns must be same length as key
+Error - 2024-06-20 15:07:12.730366 - Columns must be same length as key
+Info  - 2024-06-20 15:07:18.244537 -  PLC is connected 
+Error - 2024-06-20 15:07:18.313537 - Columns must be same length as key
+Error - 2024-06-20 15:07:22.688475 - Columns must be same length as key
+Info  - 2024-06-20 15:07:43.248899 -  PLC is connected 
+Logging  - 2024-06-20 15:07:43.309 -  Data fetching from PLC in 0.117secs
+Logging  - 2024-06-20 15:07:43.451 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:07:48.228 -  Data fetching from PLC in 0.157secs
+Logging  - 2024-06-20 15:07:53.226 -  Data fetching from PLC in 0.154secs
+Logging  - 2024-06-20 15:07:58.227 -  Data fetching from PLC in 0.156secs
+Logging  - 2024-06-20 15:08:03.224 -  Data fetching from PLC in 0.154secs
+Logging  - 2024-06-20 15:08:08.231 -  Data fetching from PLC in 0.154secs
+Logging  - 2024-06-20 15:08:13.226 -  Data fetching from PLC in 0.156secs
+Logging  - 2024-06-20 15:08:18.223 -  Data fetching from PLC in 0.157secs
+Logging  - 2024-06-20 15:08:23.233 -  Data fetching from PLC in 0.155secs
+Logging  - 2024-06-20 15:08:28.226 -  Data fetching from PLC in 0.155secs
+Logging  - 2024-06-20 15:08:33.235 -  Data fetching from PLC in 0.156secs
+Logging  - 2024-06-20 15:08:38.232 -  Data fetching from PLC in 0.155secs
+Logging  - 2024-06-20 15:08:43.232 -  Data fetching from PLC in 0.28secs
+Logging  - 2024-06-20 15:08:48.231 -  Data fetching from PLC in 0.312secs
+Logging  - 2024-06-20 15:08:53.221 -  Data fetching from PLC in 0.157secs
+Logging  - 2024-06-20 15:08:58.228 -  Data fetching from PLC in 0.156secs
+Error - 2024-06-20 15:09:03.236668 - Columns must be same length as key
+Info  - 2024-06-20 15:09:08.243135 -  PLC is connected 
+Logging  - 2024-06-20 15:09:08.306 -  Data fetching from PLC in 0.11secs
+Logging  - 2024-06-20 15:09:08.437 -  Data fetching from PLC in 0.144secs
+Logging  - 2024-06-20 15:09:13.225 -  Data fetching from PLC in 0.111secs
+Info  - 2024-06-20 15:10:28.248184 -  PLC is connected 
+Logging  - 2024-06-20 15:10:28.316 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:10:28.451 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:10:34.049 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:10:38.241 -  Data fetching from PLC in 0.115secs
+Logging  - 2024-06-20 15:10:43.247 -  Data fetching from PLC in 0.11secs
+Logging  - 2024-06-20 15:10:48.248 -  Data fetching from PLC in 0.116secs
+Logging  - 2024-06-20 15:10:53.241 -  Data fetching from PLC in 0.252secs
+Logging  - 2024-06-20 15:10:58.240 -  Data fetching from PLC in 0.28secs
+Logging  - 2024-06-20 15:11:03.252 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:11:08.249 -  Data fetching from PLC in 0.115secs
+Logging  - 2024-06-20 15:11:13.250 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:11:18.244 -  Data fetching from PLC in 0.193secs
+Logging  - 2024-06-20 15:11:23.249 -  Data fetching from PLC in 0.192secs
+Logging  - 2024-06-20 15:11:28.244 -  Data fetching from PLC in 0.326secs
+Logging  - 2024-06-20 15:11:33.243 -  Data fetching from PLC in 0.155secs
+Logging  - 2024-06-20 15:11:38.245 -  Data fetching from PLC in 0.167secs
+Logging  - 2024-06-20 15:11:43.237 -  Data fetching from PLC in 0.133secs
+Logging  - 2024-06-20 15:11:48.250 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:11:53.252 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:11:58.243 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:12:03.244 -  Data fetching from PLC in 0.11secs
+Logging  - 2024-06-20 15:12:08.239 -  Data fetching from PLC in 0.113secs
+Error - 2024-06-20 15:12:13.243031 - Columns must be same length as key
+Info  - 2024-06-20 15:12:18.247602 -  PLC is connected 
+Logging  - 2024-06-20 15:12:18.308 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:12:18.443 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:12:23.240 -  Data fetching from PLC in 0.115secs
+Logging  - 2024-06-20 15:12:28.243 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:12:33.245 -  Data fetching from PLC in 0.157secs
+Logging  - 2024-06-20 15:12:38.246 -  Data fetching from PLC in 0.158secs
+Logging  - 2024-06-20 15:12:43.247 -  Data fetching from PLC in 0.155secs
+Logging  - 2024-06-20 15:12:48.243 -  Data fetching from PLC in 0.156secs
+Logging  - 2024-06-20 15:12:53.244 -  Data fetching from PLC in 0.158secs
+Logging  - 2024-06-20 15:12:58.240 -  Data fetching from PLC in 0.155secs
+Logging  - 2024-06-20 15:13:03.248 -  Data fetching from PLC in 0.157secs
+Logging  - 2024-06-20 15:13:08.251 -  Data fetching from PLC in 0.156secs
+Logging  - 2024-06-20 15:13:13.239 -  Data fetching from PLC in 0.157secs
+Logging  - 2024-06-20 15:13:18.248 -  Data fetching from PLC in 0.156secs
+Logging  - 2024-06-20 15:13:23.250 -  Data fetching from PLC in 0.156secs
+Logging  - 2024-06-20 15:13:28.243 -  Data fetching from PLC in 0.157secs
+Logging  - 2024-06-20 15:13:33.245 -  Data fetching from PLC in 0.154secs
+Logging  - 2024-06-20 15:13:38.240 -  Data fetching from PLC in 0.158secs
+Logging  - 2024-06-20 15:13:43.238 -  Data fetching from PLC in 0.156secs
+Logging  - 2024-06-20 15:13:48.245 -  Data fetching from PLC in 0.172secs
+Logging  - 2024-06-20 15:13:53.249 -  Data fetching from PLC in 0.156secs
+Logging  - 2024-06-20 15:13:58.251 -  Data fetching from PLC in 0.157secs
+Logging  - 2024-06-20 15:14:03.246 -  Data fetching from PLC in 0.17secs
+Logging  - 2024-06-20 15:14:08.239 -  Data fetching from PLC in 0.156secs
+Logging  - 2024-06-20 15:14:13.246 -  Data fetching from PLC in 0.159secs
+Logging  - 2024-06-20 15:14:18.242 -  Data fetching from PLC in 0.17secs
+Logging  - 2024-06-20 15:14:23.236 -  Data fetching from PLC in 0.156secs
+Logging  - 2024-06-20 15:14:28.242 -  Data fetching from PLC in 0.154secs
+Logging  - 2024-06-20 15:14:33.237 -  Data fetching from PLC in 0.186secs
+Logging  - 2024-06-20 15:14:38.243 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:14:43.242 -  Data fetching from PLC in 0.236secs
+Logging  - 2024-06-20 15:14:48.240 -  Data fetching from PLC in 0.144secs
+Logging  - 2024-06-20 15:14:53.246 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:14:58.238 -  Data fetching from PLC in 0.11secs
+Logging  - 2024-06-20 15:15:03.240 -  Data fetching from PLC in 0.146secs
+Logging  - 2024-06-20 15:15:08.243 -  Data fetching from PLC in 0.37secs
+Logging  - 2024-06-20 15:15:13.241 -  Data fetching from PLC in 0.159secs
+Logging  - 2024-06-20 15:15:18.240 -  Data fetching from PLC in 0.193secs
+Logging  - 2024-06-20 15:15:23.239 -  Data fetching from PLC in 0.165secs
+Logging  - 2024-06-20 15:15:28.241 -  Data fetching from PLC in 0.172secs
+Logging  - 2024-06-20 15:15:33.243 -  Data fetching from PLC in 0.19secs
+Logging  - 2024-06-20 15:15:38.244 -  Data fetching from PLC in 0.119secs
+Logging  - 2024-06-20 15:15:43.247 -  Data fetching from PLC in 0.14secs
+Logging  - 2024-06-20 15:15:48.247 -  Data fetching from PLC in 0.139secs
+Logging  - 2024-06-20 15:15:53.247 -  Data fetching from PLC in 0.119secs
+Logging  - 2024-06-20 15:15:58.248 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:16:03.248 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:16:08.245 -  Data fetching from PLC in 0.115secs
+Logging  - 2024-06-20 15:16:13.239 -  Data fetching from PLC in 0.158secs
+Logging  - 2024-06-20 15:16:18.249 -  Data fetching from PLC in 0.131secs
+Logging  - 2024-06-20 15:16:23.246 -  Data fetching from PLC in 0.116secs
+Logging  - 2024-06-20 15:16:28.249 -  Data fetching from PLC in 0.18secs
+Logging  - 2024-06-20 15:16:33.241 -  Data fetching from PLC in 0.154secs
+Logging  - 2024-06-20 15:16:38.250 -  Data fetching from PLC in 0.159secs
+Logging  - 2024-06-20 15:16:43.235 -  Data fetching from PLC in 0.161secs
+Logging  - 2024-06-20 15:16:48.257 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:16:53.241 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:16:58.246 -  Data fetching from PLC in 0.151secs
+Logging  - 2024-06-20 15:17:03.248 -  Data fetching from PLC in 0.185secs
+Logging  - 2024-06-20 15:17:08.246 -  Data fetching from PLC in 0.139secs
+Logging  - 2024-06-20 15:17:13.237 -  Data fetching from PLC in 0.18secs
+Logging  - 2024-06-20 15:17:18.247 -  Data fetching from PLC in 0.157secs
+Logging  - 2024-06-20 15:17:23.242 -  Data fetching from PLC in 0.11secs
+Error - 2024-06-20 15:17:28.242896 - Columns must be same length as key
+Info  - 2024-06-20 15:17:33.266195 -  PLC is connected 
+Logging  - 2024-06-20 15:17:33.336 -  Data fetching from PLC in 0.158secs
+Logging  - 2024-06-20 15:17:33.529 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:17:38.248 -  Data fetching from PLC in 0.115secs
+Logging  - 2024-06-20 15:17:43.241 -  Data fetching from PLC in 0.159secs
+Logging  - 2024-06-20 15:17:48.235 -  Data fetching from PLC in 0.168secs
+Logging  - 2024-06-20 15:17:53.242 -  Data fetching from PLC in 0.12secs
+Logging  - 2024-06-20 15:17:58.238 -  Data fetching from PLC in 0.137secs
+Logging  - 2024-06-20 15:18:03.245 -  Data fetching from PLC in 0.116secs
+Logging  - 2024-06-20 15:18:08.242 -  Data fetching from PLC in 0.115secs
+Logging  - 2024-06-20 15:18:13.251 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:18:18.261 -  Data fetching from PLC in 0.157secs
+Logging  - 2024-06-20 15:18:23.255 -  Data fetching from PLC in 0.158secs
+Logging  - 2024-06-20 15:18:28.254 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:18:33.255 -  Data fetching from PLC in 0.145secs
+Logging  - 2024-06-20 15:18:38.261 -  Data fetching from PLC in 0.116secs
+Logging  - 2024-06-20 15:18:43.254 -  Data fetching from PLC in 0.268secs
+Logging  - 2024-06-20 15:18:48.258 -  Data fetching from PLC in 0.132secs
+Logging  - 2024-06-20 15:18:53.256 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:18:58.265 -  Data fetching from PLC in 0.139secs
+Logging  - 2024-06-20 15:19:03.259 -  Data fetching from PLC in 0.116secs
+Logging  - 2024-06-20 15:19:08.258 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:19:13.262 -  Data fetching from PLC in 0.116secs
+Logging  - 2024-06-20 15:19:18.257 -  Data fetching from PLC in 0.122secs
+Logging  - 2024-06-20 15:19:23.258 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:19:28.263 -  Data fetching from PLC in 0.171secs
+Logging  - 2024-06-20 15:19:33.258 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:19:38.256 -  Data fetching from PLC in 0.136secs
+Logging  - 2024-06-20 15:19:43.267 -  Data fetching from PLC in 0.118secs
+Logging  - 2024-06-20 15:19:48.258 -  Data fetching from PLC in 0.11secs
+Logging  - 2024-06-20 15:19:53.264 -  Data fetching from PLC in 0.156secs
+Logging  - 2024-06-20 15:19:58.252 -  Data fetching from PLC in 0.161secs
+Logging  - 2024-06-20 15:20:03.255 -  Data fetching from PLC in 0.125secs
+Logging  - 2024-06-20 15:20:08.263 -  Data fetching from PLC in 0.134secs
+Logging  - 2024-06-20 15:20:13.255 -  Data fetching from PLC in 0.142secs
+Logging  - 2024-06-20 15:20:18.253 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:20:23.260 -  Data fetching from PLC in 0.161secs
+Logging  - 2024-06-20 15:20:28.267 -  Data fetching from PLC in 0.159secs
+Logging  - 2024-06-20 15:20:33.253 -  Data fetching from PLC in 0.115secs
+Logging  - 2024-06-20 15:20:38.261 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:20:43.258 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:20:48.256 -  Data fetching from PLC in 0.153secs
+Logging  - 2024-06-20 15:20:53.269 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:20:58.281 -  Data fetching from PLC in 0.156secs
+Logging  - 2024-06-20 15:21:03.271 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:21:08.283 -  Data fetching from PLC in 0.11secs
+Logging  - 2024-06-20 15:21:13.275 -  Data fetching from PLC in 0.139secs
+Logging  - 2024-06-20 15:21:18.269 -  Data fetching from PLC in 0.13secs
+Logging  - 2024-06-20 15:21:23.272 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:21:28.273 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:21:33.274 -  Data fetching from PLC in 0.156secs
+Logging  - 2024-06-20 15:21:38.274 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:21:43.278 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:21:48.276 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:21:53.267 -  Data fetching from PLC in 0.162secs
+Logging  - 2024-06-20 15:21:58.277 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:22:03.269 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:22:08.267 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:22:13.274 -  Data fetching from PLC in 0.152secs
+Logging  - 2024-06-20 15:22:18.279 -  Data fetching from PLC in 0.142secs
+Logging  - 2024-06-20 15:22:23.274 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:22:28.267 -  Data fetching from PLC in 0.129secs
+Logging  - 2024-06-20 15:22:33.274 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:22:38.267 -  Data fetching from PLC in 0.156secs
+Logging  - 2024-06-20 15:22:43.275 -  Data fetching from PLC in 0.119secs
+Logging  - 2024-06-20 15:22:48.271 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:22:53.277 -  Data fetching from PLC in 0.131secs
+Logging  - 2024-06-20 15:22:58.279 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:23:03.272 -  Data fetching from PLC in 0.138secs
+Logging  - 2024-06-20 15:23:08.283 -  Data fetching from PLC in 0.129secs
+Logging  - 2024-06-20 15:23:13.274 -  Data fetching from PLC in 0.166secs
+Logging  - 2024-06-20 15:23:18.274 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:23:23.273 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:23:28.268 -  Data fetching from PLC in 0.125secs
+Logging  - 2024-06-20 15:23:33.271 -  Data fetching from PLC in 0.123secs
+Logging  - 2024-06-20 15:23:38.273 -  Data fetching from PLC in 0.157secs
+Logging  - 2024-06-20 15:23:43.282 -  Data fetching from PLC in 0.11secs
+Logging  - 2024-06-20 15:23:48.282 -  Data fetching from PLC in 0.138secs
+Logging  - 2024-06-20 15:23:53.270 -  Data fetching from PLC in 0.149secs
+Logging  - 2024-06-20 15:23:58.276 -  Data fetching from PLC in 0.126secs
+Logging  - 2024-06-20 15:24:03.267 -  Data fetching from PLC in 0.159secs
+Logging  - 2024-06-20 15:24:08.280 -  Data fetching from PLC in 0.119secs
+Logging  - 2024-06-20 15:24:13.280 -  Data fetching from PLC in 0.109secs
+Logging  - 2024-06-20 15:24:18.273 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:24:23.273 -  Data fetching from PLC in 0.159secs
+Logging  - 2024-06-20 15:24:28.267 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:24:33.274 -  Data fetching from PLC in 0.187secs
+Logging  - 2024-06-20 15:24:38.278 -  Data fetching from PLC in 0.156secs
+Logging  - 2024-06-20 15:24:43.268 -  Data fetching from PLC in 0.143secs
+Logging  - 2024-06-20 15:24:48.281 -  Data fetching from PLC in 0.155secs
+Logging  - 2024-06-20 15:24:53.270 -  Data fetching from PLC in 0.155secs
+Logging  - 2024-06-20 15:24:58.276 -  Data fetching from PLC in 0.118secs
+Logging  - 2024-06-20 15:25:03.283 -  Data fetching from PLC in 0.12secs
+Logging  - 2024-06-20 15:25:08.278 -  Data fetching from PLC in 0.149secs
+Logging  - 2024-06-20 15:25:13.277 -  Data fetching from PLC in 0.156secs
+Logging  - 2024-06-20 15:25:18.274 -  Data fetching from PLC in 0.135secs
+Logging  - 2024-06-20 15:25:23.283 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:25:28.276 -  Data fetching from PLC in 0.155secs
+Logging  - 2024-06-20 15:25:33.276 -  Data fetching from PLC in 0.135secs
+Logging  - 2024-06-20 15:25:38.275 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:25:43.283 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:25:48.278 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:25:53.271 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:25:58.281 -  Data fetching from PLC in 0.116secs
+Logging  - 2024-06-20 15:26:03.271 -  Data fetching from PLC in 0.127secs
+Logging  - 2024-06-20 15:26:08.275 -  Data fetching from PLC in 0.157secs
+Logging  - 2024-06-20 15:26:13.273 -  Data fetching from PLC in 0.179secs
+Logging  - 2024-06-20 15:26:18.273 -  Data fetching from PLC in 0.156secs
+Logging  - 2024-06-20 15:26:23.275 -  Data fetching from PLC in 0.157secs
+Logging  - 2024-06-20 15:26:28.282 -  Data fetching from PLC in 0.11secs
+Logging  - 2024-06-20 15:26:33.270 -  Data fetching from PLC in 0.115secs
+Logging  - 2024-06-20 15:26:38.273 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:26:43.283 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:26:48.283 -  Data fetching from PLC in 0.14secs
+Logging  - 2024-06-20 15:26:53.281 -  Data fetching from PLC in 0.11secs
+Logging  - 2024-06-20 15:26:58.278 -  Data fetching from PLC in 0.161secs
+Logging  - 2024-06-20 15:27:03.273 -  Data fetching from PLC in 0.11secs
+Logging  - 2024-06-20 15:27:08.278 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:27:13.283 -  Data fetching from PLC in 0.158secs
+Logging  - 2024-06-20 15:27:18.270 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:27:23.270 -  Data fetching from PLC in 0.161secs
+Logging  - 2024-06-20 15:27:28.275 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:27:33.282 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:27:38.279 -  Data fetching from PLC in 0.11secs
+Logging  - 2024-06-20 15:27:43.274 -  Data fetching from PLC in 0.11secs
+Logging  - 2024-06-20 15:27:48.274 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:27:53.284 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:27:58.281 -  Data fetching from PLC in 0.117secs
+Logging  - 2024-06-20 15:28:03.279 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:28:08.280 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:28:13.274 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:28:18.277 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:28:23.270 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:28:28.269 -  Data fetching from PLC in 0.109secs
+Logging  - 2024-06-20 15:28:33.271 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:28:38.269 -  Data fetching from PLC in 0.115secs
+Logging  - 2024-06-20 15:28:43.273 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:28:48.280 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:28:53.276 -  Data fetching from PLC in 0.108secs
+Logging  - 2024-06-20 15:28:58.279 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:29:03.269 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:29:08.279 -  Data fetching from PLC in 0.108secs
+Logging  - 2024-06-20 15:29:13.276 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:29:18.277 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:29:23.270 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:29:28.278 -  Data fetching from PLC in 0.116secs
+Logging  - 2024-06-20 15:29:33.270 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:29:38.270 -  Data fetching from PLC in 0.116secs
+Logging  - 2024-06-20 15:29:43.269 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:29:48.270 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:29:53.281 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:29:58.278 -  Data fetching from PLC in 0.108secs
+Logging  - 2024-06-20 15:30:03.268 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:30:08.270 -  Data fetching from PLC in 0.109secs
+Logging  - 2024-06-20 15:30:13.270 -  Data fetching from PLC in 0.108secs
+Logging  - 2024-06-20 15:30:18.274 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:30:23.271 -  Data fetching from PLC in 0.355secs
+Logging  - 2024-06-20 15:30:28.276 -  Data fetching from PLC in 0.107secs
+Logging  - 2024-06-20 15:30:33.270 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:30:38.281 -  Data fetching from PLC in 0.126secs
+Logging  - 2024-06-20 15:30:43.269 -  Data fetching from PLC in 0.11secs
+Logging  - 2024-06-20 15:30:48.271 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:30:53.278 -  Data fetching from PLC in 0.135secs
+Logging  - 2024-06-20 15:30:58.267 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:31:03.272 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:31:08.269 -  Data fetching from PLC in 0.141secs
+Logging  - 2024-06-20 15:31:13.270 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:31:18.270 -  Data fetching from PLC in 0.118secs
+Logging  - 2024-06-20 15:31:23.275 -  Data fetching from PLC in 0.138secs
+Logging  - 2024-06-20 15:31:28.277 -  Data fetching from PLC in 0.115secs
+Logging  - 2024-06-20 15:31:33.266 -  Data fetching from PLC in 0.369secs
+Logging  - 2024-06-20 15:31:38.274 -  Data fetching from PLC in 0.417secs
+Logging  - 2024-06-20 15:31:43.278 -  Data fetching from PLC in 0.118secs
+Logging  - 2024-06-20 15:31:48.273 -  Data fetching from PLC in 0.142secs
+Logging  - 2024-06-20 15:31:53.268 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:31:58.278 -  Data fetching from PLC in 0.119secs
+Logging  - 2024-06-20 15:32:03.270 -  Data fetching from PLC in 0.126secs
+Logging  - 2024-06-20 15:32:08.280 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:32:13.269 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:32:18.274 -  Data fetching from PLC in 0.159secs
+Logging  - 2024-06-20 15:32:23.275 -  Data fetching from PLC in 0.191secs
+Logging  - 2024-06-20 15:32:28.285 -  Data fetching from PLC in 0.16secs
+Logging  - 2024-06-20 15:32:33.271 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:32:38.271 -  Data fetching from PLC in 0.109secs
+Logging  - 2024-06-20 15:32:43.270 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:32:48.271 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:32:53.270 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:32:58.281 -  Data fetching from PLC in 0.109secs
+Logging  - 2024-06-20 15:33:03.279 -  Data fetching from PLC in 0.131secs
+Logging  - 2024-06-20 15:33:08.281 -  Data fetching from PLC in 0.188secs
+Logging  - 2024-06-20 15:33:13.281 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:33:18.298 -  Data fetching from PLC in 0.117secs
+Logging  - 2024-06-20 15:33:23.284 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:33:28.297 -  Data fetching from PLC in 0.121secs
+Logging  - 2024-06-20 15:33:33.293 -  Data fetching from PLC in 0.11secs
+Logging  - 2024-06-20 15:33:38.287 -  Data fetching from PLC in 0.119secs
+Logging  - 2024-06-20 15:33:43.298 -  Data fetching from PLC in 0.18secs
+Logging  - 2024-06-20 15:33:48.290 -  Data fetching from PLC in 0.16secs
+Logging  - 2024-06-20 15:33:53.299 -  Data fetching from PLC in 0.184secs
+Logging  - 2024-06-20 15:33:58.285 -  Data fetching from PLC in 0.158secs
+Logging  - 2024-06-20 15:34:03.285 -  Data fetching from PLC in 0.132secs
+Logging  - 2024-06-20 15:34:08.286 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:34:13.298 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:34:18.294 -  Data fetching from PLC in 0.108secs
+Logging  - 2024-06-20 15:34:23.292 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:34:28.293 -  Data fetching from PLC in 0.175secs
+Logging  - 2024-06-20 15:34:33.291 -  Data fetching from PLC in 0.159secs
+Logging  - 2024-06-20 15:34:38.287 -  Data fetching from PLC in 0.146secs
+Logging  - 2024-06-20 15:34:43.286 -  Data fetching from PLC in 0.119secs
+Logging  - 2024-06-20 15:34:48.283 -  Data fetching from PLC in 0.425secs
+Logging  - 2024-06-20 15:34:53.291 -  Data fetching from PLC in 0.109secs
+Logging  - 2024-06-20 15:34:58.287 -  Data fetching from PLC in 0.115secs
+Logging  - 2024-06-20 15:35:03.291 -  Data fetching from PLC in 0.117secs
+Logging  - 2024-06-20 15:35:08.284 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:35:13.284 -  Data fetching from PLC in 0.144secs
+Logging  - 2024-06-20 15:35:18.298 -  Data fetching from PLC in 0.156secs
+Logging  - 2024-06-20 15:35:23.296 -  Data fetching from PLC in 0.142secs
+Logging  - 2024-06-20 15:35:28.289 -  Data fetching from PLC in 0.117secs
+Logging  - 2024-06-20 15:35:33.297 -  Data fetching from PLC in 0.119secs
+Logging  - 2024-06-20 15:35:38.286 -  Data fetching from PLC in 0.16secs
+Logging  - 2024-06-20 15:35:43.287 -  Data fetching from PLC in 0.161secs
+Logging  - 2024-06-20 15:35:48.282 -  Data fetching from PLC in 0.125secs
+Logging  - 2024-06-20 15:35:53.293 -  Data fetching from PLC in 0.116secs
+Logging  - 2024-06-20 15:35:58.286 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:36:03.289 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:36:08.295 -  Data fetching from PLC in 0.187secs
+Logging  - 2024-06-20 15:36:13.288 -  Data fetching from PLC in 0.16secs
+Logging  - 2024-06-20 15:36:18.289 -  Data fetching from PLC in 0.121secs
+Logging  - 2024-06-20 15:36:23.292 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:36:28.290 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:36:33.293 -  Data fetching from PLC in 0.118secs
+Logging  - 2024-06-20 15:36:38.287 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:36:43.291 -  Data fetching from PLC in 0.11secs
+Logging  - 2024-06-20 15:36:48.284 -  Data fetching from PLC in 0.161secs
+Logging  - 2024-06-20 15:36:53.284 -  Data fetching from PLC in 0.187secs
+Logging  - 2024-06-20 15:36:58.297 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:37:03.295 -  Data fetching from PLC in 0.113secs
+Logging  - 2024-06-20 15:37:08.293 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:37:13.297 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:37:18.288 -  Data fetching from PLC in 0.117secs
+Logging  - 2024-06-20 15:37:23.282 -  Data fetching from PLC in 0.11secs
+Logging  - 2024-06-20 15:37:28.287 -  Data fetching from PLC in 0.116secs
+Logging  - 2024-06-20 15:37:33.295 -  Data fetching from PLC in 0.121secs
+Logging  - 2024-06-20 15:37:38.290 -  Data fetching from PLC in 0.381secs
+Logging  - 2024-06-20 15:37:43.288 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:37:48.301 -  Data fetching from PLC in 0.128secs
+Logging  - 2024-06-20 15:37:53.304 -  Data fetching from PLC in 0.125secs
+Logging  - 2024-06-20 15:37:58.314 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:38:03.310 -  Data fetching from PLC in 0.138secs
+Logging  - 2024-06-20 15:38:08.307 -  Data fetching from PLC in 0.159secs
+Logging  - 2024-06-20 15:38:13.300 -  Data fetching from PLC in 0.146secs
+Logging  - 2024-06-20 15:38:18.300 -  Data fetching from PLC in 0.157secs
+Logging  - 2024-06-20 15:38:23.312 -  Data fetching from PLC in 0.142secs
+Logging  - 2024-06-20 15:38:28.308 -  Data fetching from PLC in 0.142secs
+Logging  - 2024-06-20 15:38:33.302 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:38:38.300 -  Data fetching from PLC in 0.111secs
+Logging  - 2024-06-20 15:38:43.310 -  Data fetching from PLC in 0.109secs
+Logging  - 2024-06-20 15:38:48.304 -  Data fetching from PLC in 0.114secs
+Logging  - 2024-06-20 15:38:53.307 -  Data fetching from PLC in 0.112secs
+Logging  - 2024-06-20 15:38:58.311 -  Data fetching from PLC in 0.108secs
+Info  - 2024-06-20 15:46:33.861211 -  PLC is connected 
+Info  - 2024-06-20 15:55:44.355791 -  PLC is connected 
+Logging  - 2024-06-20 15:55:44.421 -  Data fetching from PLC in 5.661secs
+Error - 2024-06-20 15:55:54.334901 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 15:55:54.334901 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 15:56:04.339139 -  PLC is connected 
+Logging  - 2024-06-20 15:56:04.402 -  Data fetching from PLC in 5.71secs
+Logging  - 2024-06-20 15:56:10.306 -  Data fetching from PLC in 5.689secs
+Logging  - 2024-06-20 15:56:24.324 -  Data fetching from PLC in 5.674secs
+Logging  - 2024-06-20 15:56:34.327 -  Data fetching from PLC in 5.667secs
+Logging  - 2024-06-20 15:56:44.321 -  Data fetching from PLC in 5.693secs
+Error - 2024-06-20 15:57:04.327018 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 15:57:04.327018 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 15:57:14.342423 -  PLC is connected 
+Logging  - 2024-06-20 15:57:14.405 -  Data fetching from PLC in 9.305secs
+Logging  - 2024-06-20 15:57:23.915 -  Data fetching from PLC in 5.631secs
+Logging  - 2024-06-20 15:57:34.330 -  Data fetching from PLC in 5.725secs
+Logging  - 2024-06-20 15:57:44.318 -  Data fetching from PLC in 5.707secs
+Logging  - 2024-06-20 15:57:54.326 -  Data fetching from PLC in 5.606secs
+Logging  - 2024-06-20 15:58:04.325 -  Data fetching from PLC in 5.623secs
+Logging  - 2024-06-20 15:58:14.324 -  Data fetching from PLC in 7.599secs
+Logging  - 2024-06-20 15:58:24.328 -  Data fetching from PLC in 7.857secs
+Logging  - 2024-06-20 15:58:34.322 -  Data fetching from PLC in 7.832secs
+Logging  - 2024-06-20 15:58:44.324 -  Data fetching from PLC in 7.865secs
+Logging  - 2024-06-20 15:58:54.329 -  Data fetching from PLC in 7.894secs
+Logging  - 2024-06-20 15:59:04.326 -  Data fetching from PLC in 7.9secs
+Logging  - 2024-06-20 15:59:14.332 -  Data fetching from PLC in 7.88secs
+Logging  - 2024-06-20 15:59:24.331 -  Data fetching from PLC in 7.86secs
+Logging  - 2024-06-20 15:59:34.316 -  Data fetching from PLC in 7.875secs
+Logging  - 2024-06-20 15:59:44.317 -  Data fetching from PLC in 7.831secs
+Logging  - 2024-06-20 15:59:54.319 -  Data fetching from PLC in 7.826secs
+Logging  - 2024-06-20 16:00:04.324 -  Data fetching from PLC in 7.848secs
+Logging  - 2024-06-20 16:00:14.320 -  Data fetching from PLC in 7.81secs
+Logging  - 2024-06-20 16:00:24.325 -  Data fetching from PLC in 7.809secs
+Logging  - 2024-06-20 16:00:34.320 -  Data fetching from PLC in 7.859secs
+Logging  - 2024-06-20 16:00:44.318 -  Data fetching from PLC in 7.79secs
+Logging  - 2024-06-20 16:00:54.316 -  Data fetching from PLC in 7.886secs
+Logging  - 2024-06-20 16:01:04.325 -  Data fetching from PLC in 7.857secs
+Logging  - 2024-06-20 16:01:14.327 -  Data fetching from PLC in 7.778secs
+Logging  - 2024-06-20 16:01:24.316 -  Data fetching from PLC in 7.906secs
+Logging  - 2024-06-20 16:01:34.321 -  Data fetching from PLC in 7.88secs
+Logging  - 2024-06-20 16:01:44.323 -  Data fetching from PLC in 7.805secs
+Logging  - 2024-06-20 16:01:54.321 -  Data fetching from PLC in 7.877secs
+Logging  - 2024-06-20 16:02:04.319 -  Data fetching from PLC in 7.838secs
+Logging  - 2024-06-20 16:02:14.323 -  Data fetching from PLC in 7.916secs
+Error - 2024-06-20 16:02:34.329594 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 16:02:34.329594 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 16:02:44.356449 -  PLC is connected 
+Logging  - 2024-06-20 16:02:44.432 -  Data fetching from PLC in 16.43secs
+Logging  - 2024-06-20 16:03:01.153 -  Data fetching from PLC in 16.042secs
+Logging  - 2024-06-20 16:03:24.325 -  Data fetching from PLC in 9.226secs
+Logging  - 2024-06-20 16:03:34.326 -  Data fetching from PLC in 8.73secs
+Logging  - 2024-06-20 16:03:44.316 -  Data fetching from PLC in 8.843secs
+Logging  - 2024-06-20 16:03:54.331 -  Data fetching from PLC in 8.893secs
+Logging  - 2024-06-20 16:04:04.320 -  Data fetching from PLC in 8.686secs
+Logging  - 2024-06-20 16:04:14.325 -  Data fetching from PLC in 8.551secs
+Logging  - 2024-06-20 16:04:24.318 -  Data fetching from PLC in 8.798secs
+Logging  - 2024-06-20 16:04:34.318 -  Data fetching from PLC in 8.826secs
+Logging  - 2024-06-20 16:04:44.331 -  Data fetching from PLC in 8.66secs
+Logging  - 2024-06-20 16:04:54.320 -  Data fetching from PLC in 8.751secs
+Logging  - 2024-06-20 16:05:04.322 -  Data fetching from PLC in 8.371secs
+Error - 2024-06-20 16:05:24.319546 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 16:05:24.319546 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 16:05:34.356483 -  PLC is connected 
+Logging  - 2024-06-20 16:05:34.562 -  Data fetching from PLC in 10.552secs
+Logging  - 2024-06-20 16:05:45.571 -  Data fetching from PLC in 8.531secs
+Logging  - 2024-06-20 16:06:04.320 -  Data fetching from PLC in 8.839secs
+Logging  - 2024-06-20 16:06:14.317 -  Data fetching from PLC in 8.894secs
+Logging  - 2024-06-20 16:06:24.327 -  Data fetching from PLC in 8.561secs
+Logging  - 2024-06-20 16:06:34.330 -  Data fetching from PLC in 8.922secs
+Logging  - 2024-06-20 16:06:44.316 -  Data fetching from PLC in 8.866secs
+Logging  - 2024-06-20 16:06:54.319 -  Data fetching from PLC in 8.587secs
+Logging  - 2024-06-20 16:07:04.315 -  Data fetching from PLC in 8.875secs
+Logging  - 2024-06-20 16:07:14.318 -  Data fetching from PLC in 8.759secs
+Logging  - 2024-06-20 16:07:24.321 -  Data fetching from PLC in 8.827secs
+Logging  - 2024-06-20 16:07:34.326 -  Data fetching from PLC in 8.858secs
+Logging  - 2024-06-20 16:07:44.328 -  Data fetching from PLC in 8.855secs
+Logging  - 2024-06-20 16:07:54.320 -  Data fetching from PLC in 8.736secs
+Error - 2024-06-20 16:08:14.327833 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 16:08:24.348697 -  PLC is connected 
+Error - 2024-06-20 16:08:24.454711 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 16:08:24.454711 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Logging  - 2024-06-20 16:08:39.090 -  Data fetching from PLC in 9.118secs
+Logging  - 2024-06-20 16:08:54.328 -  Data fetching from PLC in 9.237secs
+Logging  - 2024-06-20 16:09:04.331 -  Data fetching from PLC in 9.117secs
+Logging  - 2024-06-20 16:09:14.345 -  Data fetching from PLC in 9.127secs
+Logging  - 2024-06-20 16:09:24.336 -  Data fetching from PLC in 9.712secs
+Logging  - 2024-06-20 16:09:34.340 -  Data fetching from PLC in 9.273secs
+Logging  - 2024-06-20 16:09:44.337 -  Data fetching from PLC in 9.207secs
+Logging  - 2024-06-20 16:09:54.339 -  Data fetching from PLC in 9.329secs
+Logging  - 2024-06-20 16:10:04.340 -  Data fetching from PLC in 9.196secs
+Logging  - 2024-06-20 16:10:14.359 -  Data fetching from PLC in 9.12secs
+Logging  - 2024-06-20 16:10:24.354 -  Data fetching from PLC in 8.752secs
+Logging  - 2024-06-20 16:10:34.346 -  Data fetching from PLC in 9.069secs
+Logging  - 2024-06-20 16:10:44.357 -  Data fetching from PLC in 9.228secs
+Logging  - 2024-06-20 16:10:54.352 -  Data fetching from PLC in 9.276secs
+Logging  - 2024-06-20 16:11:04.363 -  Data fetching from PLC in 9.22secs
+Logging  - 2024-06-20 16:11:14.356 -  Data fetching from PLC in 9.085secs
+Logging  - 2024-06-20 16:11:24.361 -  Data fetching from PLC in 9.138secs
+Logging  - 2024-06-20 16:11:34.352 -  Data fetching from PLC in 9.149secs
+Logging  - 2024-06-20 16:11:44.357 -  Data fetching from PLC in 9.346secs
+Logging  - 2024-06-20 16:11:54.356 -  Data fetching from PLC in 9.02secs
+Logging  - 2024-06-20 16:12:04.354 -  Data fetching from PLC in 9.297secs
+Logging  - 2024-06-20 16:12:14.352 -  Data fetching from PLC in 9.251secs
+Error - 2024-06-20 16:12:24.350624 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 16:12:34.380238 -  PLC is connected 
+Logging  - 2024-06-20 16:12:34.445 -  Data fetching from PLC in 7.646secs
+Logging  - 2024-06-20 16:12:42.275 -  Data fetching from PLC in 6.429secs
+Logging  - 2024-06-20 16:12:54.359 -  Data fetching from PLC in 5.866secs
+Logging  - 2024-06-20 16:13:04.443 -  Data fetching from PLC in 6.151secs
+Logging  - 2024-06-20 16:13:14.364 -  Data fetching from PLC in 8.065secs
+Logging  - 2024-06-20 16:13:24.363 -  Data fetching from PLC in 8.086secs
+Logging  - 2024-06-20 16:13:34.363 -  Data fetching from PLC in 8.042secs
+Logging  - 2024-06-20 16:13:44.371 -  Data fetching from PLC in 7.944secs
+Logging  - 2024-06-20 16:13:54.370 -  Data fetching from PLC in 8.0secs
+Logging  - 2024-06-20 16:14:04.367 -  Data fetching from PLC in 7.996secs
+Logging  - 2024-06-20 16:14:14.376 -  Data fetching from PLC in 8.002secs
+Logging  - 2024-06-20 16:14:24.364 -  Data fetching from PLC in 8.031secs
+Logging  - 2024-06-20 16:14:34.368 -  Data fetching from PLC in 7.968secs
+Logging  - 2024-06-20 16:14:44.375 -  Data fetching from PLC in 8.022secs
+Logging  - 2024-06-20 16:14:54.362 -  Data fetching from PLC in 8.067secs
+Logging  - 2024-06-20 16:15:04.367 -  Data fetching from PLC in 7.971secs
+Logging  - 2024-06-20 16:15:14.373 -  Data fetching from PLC in 8.057secs
+Logging  - 2024-06-20 16:15:24.370 -  Data fetching from PLC in 8.015secs
+Logging  - 2024-06-20 16:15:34.361 -  Data fetching from PLC in 8.008secs
+Logging  - 2024-06-20 16:15:44.360 -  Data fetching from PLC in 8.021secs
+Logging  - 2024-06-20 16:15:54.371 -  Data fetching from PLC in 8.102secs
+Error - 2024-06-20 16:16:14.367920 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 16:16:24.397232 -  PLC is connected 
+Error - 2024-06-20 16:16:24.803048 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 16:16:24.803048 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Logging  - 2024-06-20 16:16:37.682 -  Data fetching from PLC in 14.29secs
+Logging  - 2024-06-20 16:16:54.373 -  Data fetching from PLC in 8.189secs
+Logging  - 2024-06-20 16:17:04.371 -  Data fetching from PLC in 8.954secs
+Logging  - 2024-06-20 16:17:14.373 -  Data fetching from PLC in 9.29secs
+Logging  - 2024-06-20 16:17:24.368 -  Data fetching from PLC in 9.327secs
+Logging  - 2024-06-20 16:17:34.375 -  Data fetching from PLC in 9.298secs
+Logging  - 2024-06-20 16:17:44.376 -  Data fetching from PLC in 8.999secs
+Logging  - 2024-06-20 16:17:54.372 -  Data fetching from PLC in 9.062secs
+Logging  - 2024-06-20 16:18:04.369 -  Data fetching from PLC in 9.068secs
+Logging  - 2024-06-20 16:18:14.615 -  Data fetching from PLC in 7.863secs
+Logging  - 2024-06-20 16:18:24.370 -  Data fetching from PLC in 6.945secs
+"Alert"  - 2024-06-20 16:18:36.278378 -  PLC is Disconnected 
+Error - 2024-06-20 16:18:36.278378 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 16:19:58.838126 -  PLC is connected 
+Logging  - 2024-06-20 16:19:58.904 -  Data fetching from PLC in 7.03secs
+Logging  - 2024-06-20 16:20:06.119 -  Data fetching from PLC in 6.618secs
+Logging  - 2024-06-20 16:20:13.829 -  Data fetching from PLC in 6.762secs
+Logging  - 2024-06-20 16:20:28.823 -  Data fetching from PLC in 7.168secs
+Logging  - 2024-06-20 16:20:43.816 -  Data fetching from PLC in 5.873secs
+Logging  - 2024-06-20 16:20:58.818 -  Data fetching from PLC in 5.911secs
+Logging  - 2024-06-20 16:21:13.828 -  Data fetching from PLC in 5.806secs
+Logging  - 2024-06-20 16:21:28.828 -  Data fetching from PLC in 5.75secs
+Logging  - 2024-06-20 16:21:43.814 -  Data fetching from PLC in 5.782secs
+Logging  - 2024-06-20 16:21:58.814 -  Data fetching from PLC in 5.787secs
+Logging  - 2024-06-20 16:22:13.822 -  Data fetching from PLC in 5.789secs
+Logging  - 2024-06-20 16:22:28.828 -  Data fetching from PLC in 5.736secs
+Logging  - 2024-06-20 16:22:43.817 -  Data fetching from PLC in 5.743secs
+Logging  - 2024-06-20 16:22:58.824 -  Data fetching from PLC in 5.781secs
+Logging  - 2024-06-20 16:23:13.828 -  Data fetching from PLC in 5.763secs
+Logging  - 2024-06-20 16:23:28.828 -  Data fetching from PLC in 5.741secs
+Logging  - 2024-06-20 16:23:43.817 -  Data fetching from PLC in 5.797secs
+Logging  - 2024-06-20 16:23:58.819 -  Data fetching from PLC in 5.773secs
+Logging  - 2024-06-20 16:24:13.827 -  Data fetching from PLC in 5.775secs
+Logging  - 2024-06-20 16:24:28.822 -  Data fetching from PLC in 5.829secs
+Logging  - 2024-06-20 16:24:43.818 -  Data fetching from PLC in 5.814secs
+Logging  - 2024-06-20 16:24:58.831 -  Data fetching from PLC in 5.869secs
+Logging  - 2024-06-20 16:25:13.822 -  Data fetching from PLC in 5.914secs
+Logging  - 2024-06-20 16:25:28.818 -  Data fetching from PLC in 5.815secs
+Logging  - 2024-06-20 16:25:43.823 -  Data fetching from PLC in 5.876secs
+Logging  - 2024-06-20 16:25:58.817 -  Data fetching from PLC in 5.891secs
+Logging  - 2024-06-20 16:26:13.814 -  Data fetching from PLC in 5.85secs
+Logging  - 2024-06-20 16:26:28.821 -  Data fetching from PLC in 7.982secs
+Logging  - 2024-06-20 16:26:43.826 -  Data fetching from PLC in 8.02secs
+Logging  - 2024-06-20 16:26:58.822 -  Data fetching from PLC in 8.029secs
+Logging  - 2024-06-20 16:27:13.825 -  Data fetching from PLC in 8.037secs
+Logging  - 2024-06-20 16:27:28.818 -  Data fetching from PLC in 7.979secs
+Logging  - 2024-06-20 16:27:43.825 -  Data fetching from PLC in 8.199secs
+Logging  - 2024-06-20 16:27:58.824 -  Data fetching from PLC in 8.011secs
+Logging  - 2024-06-20 16:28:13.823 -  Data fetching from PLC in 8.015secs
+Logging  - 2024-06-20 16:28:28.828 -  Data fetching from PLC in 7.994secs
+Logging  - 2024-06-20 16:28:43.824 -  Data fetching from PLC in 8.021secs
+Logging  - 2024-06-20 16:28:58.819 -  Data fetching from PLC in 8.022secs
+Logging  - 2024-06-20 16:29:13.820 -  Data fetching from PLC in 8.017secs
+Logging  - 2024-06-20 16:29:28.815 -  Data fetching from PLC in 8.031secs
+Logging  - 2024-06-20 16:29:43.823 -  Data fetching from PLC in 7.988secs
+Logging  - 2024-06-20 16:29:58.819 -  Data fetching from PLC in 8.002secs
+Logging  - 2024-06-20 16:30:13.820 -  Data fetching from PLC in 8.018secs
+Logging  - 2024-06-20 16:30:28.821 -  Data fetching from PLC in 7.942secs
+Logging  - 2024-06-20 16:30:43.825 -  Data fetching from PLC in 8.018secs
+Logging  - 2024-06-20 16:30:58.819 -  Data fetching from PLC in 8.03secs
+Logging  - 2024-06-20 16:31:13.824 -  Data fetching from PLC in 8.062secs
+Logging  - 2024-06-20 16:31:28.830 -  Data fetching from PLC in 8.056secs
+Logging  - 2024-06-20 16:31:43.821 -  Data fetching from PLC in 8.043secs
+Logging  - 2024-06-20 16:31:58.828 -  Data fetching from PLC in 8.118secs
+Logging  - 2024-06-20 16:32:13.816 -  Data fetching from PLC in 8.109secs
+Logging  - 2024-06-20 16:32:28.818 -  Data fetching from PLC in 8.008secs
+Logging  - 2024-06-20 16:32:43.818 -  Data fetching from PLC in 8.013secs
+Logging  - 2024-06-20 16:32:58.824 -  Data fetching from PLC in 8.028secs
+Logging  - 2024-06-20 16:33:13.818 -  Data fetching from PLC in 7.997secs
+Logging  - 2024-06-20 16:33:28.815 -  Data fetching from PLC in 7.98secs
+Logging  - 2024-06-20 16:33:43.828 -  Data fetching from PLC in 8.012secs
+Logging  - 2024-06-20 16:33:58.826 -  Data fetching from PLC in 8.066secs
+Logging  - 2024-06-20 16:34:13.821 -  Data fetching from PLC in 8.007secs
+Logging  - 2024-06-20 16:34:28.823 -  Data fetching from PLC in 7.971secs
+Logging  - 2024-06-20 16:34:43.817 -  Data fetching from PLC in 8.052secs
+Logging  - 2024-06-20 16:34:58.824 -  Data fetching from PLC in 8.035secs
+Logging  - 2024-06-20 16:35:13.818 -  Data fetching from PLC in 7.989secs
+Logging  - 2024-06-20 16:35:28.827 -  Data fetching from PLC in 8.013secs
+Logging  - 2024-06-20 16:35:43.826 -  Data fetching from PLC in 8.092secs
+Logging  - 2024-06-20 16:35:58.830 -  Data fetching from PLC in 8.11secs
+Logging  - 2024-06-20 16:36:13.823 -  Data fetching from PLC in 8.033secs
+Logging  - 2024-06-20 16:36:28.823 -  Data fetching from PLC in 7.979secs
+Logging  - 2024-06-20 16:36:43.831 -  Data fetching from PLC in 8.025secs
+Logging  - 2024-06-20 16:36:58.822 -  Data fetching from PLC in 8.003secs
+Logging  - 2024-06-20 16:37:13.823 -  Data fetching from PLC in 7.951secs
+Logging  - 2024-06-20 16:37:28.829 -  Data fetching from PLC in 8.012secs
+Logging  - 2024-06-20 16:37:43.823 -  Data fetching from PLC in 8.039secs
+Logging  - 2024-06-20 16:37:58.821 -  Data fetching from PLC in 8.094secs
+Logging  - 2024-06-20 16:38:13.822 -  Data fetching from PLC in 7.969secs
+Logging  - 2024-06-20 16:38:28.817 -  Data fetching from PLC in 8.014secs
+Logging  - 2024-06-20 16:38:43.822 -  Data fetching from PLC in 8.017secs
+Logging  - 2024-06-20 16:38:58.814 -  Data fetching from PLC in 8.008secs
+Logging  - 2024-06-20 16:39:13.821 -  Data fetching from PLC in 8.008secs
+Logging  - 2024-06-20 16:39:28.819 -  Data fetching from PLC in 8.035secs
+Logging  - 2024-06-20 16:39:43.817 -  Data fetching from PLC in 8.031secs
+Logging  - 2024-06-20 16:39:58.823 -  Data fetching from PLC in 8.149secs
+Logging  - 2024-06-20 16:40:13.815 -  Data fetching from PLC in 8.086secs
+Logging  - 2024-06-20 16:40:28.829 -  Data fetching from PLC in 8.037secs
+Logging  - 2024-06-20 16:40:43.824 -  Data fetching from PLC in 7.994secs
+Logging  - 2024-06-20 16:40:58.827 -  Data fetching from PLC in 7.999secs
+Logging  - 2024-06-20 16:41:14.119 -  Data fetching from PLC in 8.042secs
+Logging  - 2024-06-20 16:41:29.112 -  Data fetching from PLC in 7.987secs
+Logging  - 2024-06-20 16:41:44.110 -  Data fetching from PLC in 8.007secs
+Logging  - 2024-06-20 16:41:59.108 -  Data fetching from PLC in 8.123secs
+Logging  - 2024-06-20 16:42:14.110 -  Data fetching from PLC in 8.043secs
+Logging  - 2024-06-20 16:42:29.102 -  Data fetching from PLC in 8.033secs
+Logging  - 2024-06-20 16:42:44.103 -  Data fetching from PLC in 8.016secs
+Logging  - 2024-06-20 16:42:59.100 -  Data fetching from PLC in 7.996secs
+Logging  - 2024-06-20 16:43:14.110 -  Data fetching from PLC in 8.04secs
+Logging  - 2024-06-20 16:43:29.102 -  Data fetching from PLC in 8.062secs
+Logging  - 2024-06-20 16:43:44.105 -  Data fetching from PLC in 8.065secs
+Logging  - 2024-06-20 16:43:59.101 -  Data fetching from PLC in 8.019secs
+Logging  - 2024-06-20 16:44:14.097 -  Data fetching from PLC in 8.039secs
+Logging  - 2024-06-20 16:44:29.099 -  Data fetching from PLC in 8.018secs
+Logging  - 2024-06-20 16:44:44.107 -  Data fetching from PLC in 8.133secs
+Logging  - 2024-06-20 16:44:59.098 -  Data fetching from PLC in 8.045secs
+Logging  - 2024-06-20 16:45:14.105 -  Data fetching from PLC in 8.02secs
+Logging  - 2024-06-20 16:45:29.098 -  Data fetching from PLC in 7.998secs
+Logging  - 2024-06-20 16:45:44.106 -  Data fetching from PLC in 8.016secs
+Logging  - 2024-06-20 16:45:59.107 -  Data fetching from PLC in 7.984secs
+Logging  - 2024-06-20 16:46:14.109 -  Data fetching from PLC in 8.183secs
+Logging  - 2024-06-20 16:46:29.101 -  Data fetching from PLC in 8.002secs
+Logging  - 2024-06-20 16:46:44.111 -  Data fetching from PLC in 8.028secs
+Logging  - 2024-06-20 16:46:59.097 -  Data fetching from PLC in 8.001secs
+Logging  - 2024-06-20 16:47:14.110 -  Data fetching from PLC in 8.044secs
+Logging  - 2024-06-20 16:47:29.099 -  Data fetching from PLC in 8.062secs
+Logging  - 2024-06-20 16:47:44.096 -  Data fetching from PLC in 8.072secs
+Logging  - 2024-06-20 16:47:59.109 -  Data fetching from PLC in 8.02secs
+Logging  - 2024-06-20 16:48:14.099 -  Data fetching from PLC in 8.172secs
+Logging  - 2024-06-20 16:48:29.106 -  Data fetching from PLC in 8.035secs
+Logging  - 2024-06-20 16:48:44.096 -  Data fetching from PLC in 8.031secs
+Logging  - 2024-06-20 16:48:59.100 -  Data fetching from PLC in 8.011secs
+Logging  - 2024-06-20 16:49:14.104 -  Data fetching from PLC in 7.996secs
+Logging  - 2024-06-20 16:49:29.111 -  Data fetching from PLC in 8.051secs
+Logging  - 2024-06-20 16:49:44.107 -  Data fetching from PLC in 8.045secs
+Logging  - 2024-06-20 16:49:59.103 -  Data fetching from PLC in 7.983secs
+Logging  - 2024-06-20 16:50:14.097 -  Data fetching from PLC in 8.092secs
+Logging  - 2024-06-20 16:50:29.095 -  Data fetching from PLC in 7.983secs
+Logging  - 2024-06-20 16:50:44.095 -  Data fetching from PLC in 8.049secs
+Logging  - 2024-06-20 16:50:59.108 -  Data fetching from PLC in 8.006secs
+Logging  - 2024-06-20 16:51:14.110 -  Data fetching from PLC in 8.028secs
+Logging  - 2024-06-20 16:51:29.101 -  Data fetching from PLC in 8.01secs
+Logging  - 2024-06-20 16:51:44.096 -  Data fetching from PLC in 8.065secs
+Logging  - 2024-06-20 16:51:59.100 -  Data fetching from PLC in 8.024secs
+Logging  - 2024-06-20 16:52:14.099 -  Data fetching from PLC in 8.119secs
+Logging  - 2024-06-20 16:52:29.109 -  Data fetching from PLC in 8.002secs
+Logging  - 2024-06-20 16:52:44.103 -  Data fetching from PLC in 8.023secs
+Logging  - 2024-06-20 16:52:59.099 -  Data fetching from PLC in 7.99secs
+Logging  - 2024-06-20 16:53:14.097 -  Data fetching from PLC in 8.021secs
+Logging  - 2024-06-20 16:53:29.109 -  Data fetching from PLC in 8.013secs
+Logging  - 2024-06-20 16:53:44.100 -  Data fetching from PLC in 8.049secs
+Logging  - 2024-06-20 16:53:59.098 -  Data fetching from PLC in 7.974secs
+Logging  - 2024-06-20 16:54:14.096 -  Data fetching from PLC in 8.078secs
+Logging  - 2024-06-20 16:54:29.110 -  Data fetching from PLC in 8.045secs
+Logging  - 2024-06-20 16:54:44.109 -  Data fetching from PLC in 12.418secs
+Error - 2024-06-20 16:55:14.105754 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Error - 2024-06-20 16:55:14.105754 - ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 4 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Info  - 2024-06-20 16:55:29.147957 -  PLC is connected 
+Logging  - 2024-06-20 16:55:29.212 -  Data fetching from PLC in 9.57secs
+Logging  - 2024-06-20 16:55:39.075 -  Data fetching from PLC in 9.507secs
+Logging  - 2024-06-20 16:55:59.097 -  Data fetching from PLC in 8.631secs
+Logging  - 2024-06-20 16:56:14.102 -  Data fetching from PLC in 13.263secs
+Logging  - 2024-06-20 16:56:29.098 -  Data fetching from PLC in 10.14secs
+Logging  - 2024-06-20 16:56:44.104 -  Data fetching from PLC in 8.973secs
+Logging  - 2024-06-20 16:56:59.111 -  Data fetching from PLC in 9.212secs
+Logging  - 2024-06-20 16:57:14.107 -  Data fetching from PLC in 8.841secs
+Logging  - 2024-06-20 16:57:29.107 -  Data fetching from PLC in 10.34secs
+Logging  - 2024-06-20 16:57:44.100 -  Data fetching from PLC in 8.067secs
+Logging  - 2024-06-20 16:57:59.100 -  Data fetching from PLC in 9.482secs
+Logging  - 2024-06-20 16:58:14.106 -  Data fetching from PLC in 8.824secs
+Logging  - 2024-06-20 16:58:29.112 -  Data fetching from PLC in 8.812secs
+Logging  - 2024-06-20 16:58:44.133 -  Data fetching from PLC in 12.433secs
+Logging  - 2024-06-20 16:58:59.116 -  Data fetching from PLC in 8.825secs
+Logging  - 2024-06-20 16:59:14.115 -  Data fetching from PLC in 9.152secs
+Logging  - 2024-06-20 16:59:29.123 -  Data fetching from PLC in 9.132secs
+Logging  - 2024-06-20 16:59:44.121 -  Data fetching from PLC in 9.19secs
+Logging  - 2024-06-20 16:59:59.119 -  Data fetching from PLC in 7.857secs
+Logging  - 2024-06-20 17:00:14.123 -  Data fetching from PLC in 7.934secs
+Logging  - 2024-06-20 17:00:29.121 -  Data fetching from PLC in 7.833secs
+Logging  - 2024-06-20 17:00:44.126 -  Data fetching from PLC in 9.578secs
+Logging  - 2024-06-20 17:00:59.111 -  Data fetching from PLC in 7.974secs
+Logging  - 2024-06-20 17:01:14.118 -  Data fetching from PLC in 12.275secs
+Logging  - 2024-06-20 17:01:29.116 -  Data fetching from PLC in 8.729secs
+Logging  - 2024-06-20 17:01:44.118 -  Data fetching from PLC in 8.779secs
+Logging  - 2024-06-20 17:01:59.114 -  Data fetching from PLC in 8.938secs
+Logging  - 2024-06-20 17:02:14.125 -  Data fetching from PLC in 8.602secs
+Logging  - 2024-06-20 17:02:29.122 -  Data fetching from PLC in 9.06secs
+Logging  - 2024-06-20 17:02:44.125 -  Data fetching from PLC in 8.362secs
+Logging  - 2024-06-20 17:02:59.122 -  Data fetching from PLC in 8.931secs
+Logging  - 2024-06-20 17:03:14.115 -  Data fetching from PLC in 8.912secs
+Logging  - 2024-06-20 17:03:29.127 -  Data fetching from PLC in 8.59secs
+Logging  - 2024-06-20 17:03:44.122 -  Data fetching from PLC in 8.993secs
+Logging  - 2024-06-20 17:03:59.125 -  Data fetching from PLC in 8.856secs
+Logging  - 2024-06-20 17:04:14.122 -  Data fetching from PLC in 8.709secs
+Logging  - 2024-06-20 17:04:29.121 -  Data fetching from PLC in 8.878secs
+Logging  - 2024-06-20 17:04:44.120 -  Data fetching from PLC in 8.832secs
+Logging  - 2024-06-20 17:04:59.121 -  Data fetching from PLC in 9.035secs
+Logging  - 2024-06-20 17:05:14.119 -  Data fetching from PLC in 8.91secs
+Logging  - 2024-06-20 17:05:29.119 -  Data fetching from PLC in 8.827secs
+Logging  - 2024-06-20 17:05:44.116 -  Data fetching from PLC in 8.897secs
+Logging  - 2024-06-20 17:05:59.120 -  Data fetching from PLC in 9.037secs
+Logging  - 2024-06-20 17:06:14.125 -  Data fetching from PLC in 8.861secs
+Logging  - 2024-06-20 17:06:29.123 -  Data fetching from PLC in 8.889secs
+Logging  - 2024-06-20 17:06:44.118 -  Data fetching from PLC in 9.0secs
+Logging  - 2024-06-20 17:06:59.116 -  Data fetching from PLC in 8.785secs
+Logging  - 2024-06-20 17:07:14.121 -  Data fetching from PLC in 8.831secs
+Logging  - 2024-06-20 17:07:29.115 -  Data fetching from PLC in 8.866secs
+Logging  - 2024-06-20 17:07:44.124 -  Data fetching from PLC in 8.834secs
+Logging  - 2024-06-20 17:07:59.120 -  Data fetching from PLC in 8.891secs
+Logging  - 2024-06-20 17:08:14.115 -  Data fetching from PLC in 8.98secs
+Logging  - 2024-06-20 17:08:29.120 -  Data fetching from PLC in 8.885secs
+Logging  - 2024-06-20 17:08:44.124 -  Data fetching from PLC in 7.939secs
+Logging  - 2024-06-20 17:08:59.124 -  Data fetching from PLC in 7.773secs
+Logging  - 2024-06-20 17:09:14.114 -  Data fetching from PLC in 7.801secs
+Logging  - 2024-06-20 17:09:29.119 -  Data fetching from PLC in 7.806secs
+Logging  - 2024-06-20 17:09:44.125 -  Data fetching from PLC in 7.871secs
+Logging  - 2024-06-20 17:09:59.117 -  Data fetching from PLC in 7.817secs
+Logging  - 2024-06-20 17:10:14.125 -  Data fetching from PLC in 7.826secs
+Logging  - 2024-06-20 17:10:29.113 -  Data fetching from PLC in 10.037secs
+Logging  - 2024-06-20 17:10:44.115 -  Data fetching from PLC in 10.114secs
+Logging  - 2024-06-20 17:10:59.121 -  Data fetching from PLC in 8.565secs
+Logging  - 2024-06-20 17:11:14.117 -  Data fetching from PLC in 8.727secs
+Logging  - 2024-06-20 17:11:29.122 -  Data fetching from PLC in 9.785secs
+Logging  - 2024-06-20 17:11:44.114 -  Data fetching from PLC in 9.758secs
+Logging  - 2024-06-20 17:11:59.112 -  Data fetching from PLC in 9.122secs
+Logging  - 2024-06-20 17:12:14.119 -  Data fetching from PLC in 8.893secs
+Logging  - 2024-06-20 17:12:29.119 -  Data fetching from PLC in 9.131secs
+Logging  - 2024-06-20 17:12:44.114 -  Data fetching from PLC in 9.172secs
+Logging  - 2024-06-20 17:12:59.125 -  Data fetching from PLC in 9.167secs
+Logging  - 2024-06-20 17:13:14.120 -  Data fetching from PLC in 9.547secs
+Logging  - 2024-06-20 17:13:29.122 -  Data fetching from PLC in 9.299secs
+Logging  - 2024-06-20 17:13:44.114 -  Data fetching from PLC in 8.058secs
+Logging  - 2024-06-20 17:13:59.125 -  Data fetching from PLC in 7.982secs
+Logging  - 2024-06-20 17:14:14.112 -  Data fetching from PLC in 13.182secs
+Logging  - 2024-06-20 17:14:29.120 -  Data fetching from PLC in 6.656secs
+Logging  - 2024-06-20 17:14:44.125 -  Data fetching from PLC in 5.691secs
+Logging  - 2024-06-20 17:14:59.119 -  Data fetching from PLC in 9.18secs
+Logging  - 2024-06-20 17:15:14.118 -  Data fetching from PLC in 7.088secs
+Logging  - 2024-06-20 17:15:29.116 -  Data fetching from PLC in 7.618secs
+Logging  - 2024-06-20 17:15:44.124 -  Data fetching from PLC in 11.434secs
+Logging  - 2024-06-20 17:15:59.126 -  Data fetching from PLC in 6.81secs
+Logging  - 2024-06-20 17:16:14.114 -  Data fetching from PLC in 7.439secs
+Logging  - 2024-06-20 17:16:29.114 -  Data fetching from PLC in 6.875secs
+Logging  - 2024-06-20 17:16:44.125 -  Data fetching from PLC in 6.334secs
+Logging  - 2024-06-20 17:16:59.122 -  Data fetching from PLC in 6.96secs
+Logging  - 2024-06-20 17:17:14.119 -  Data fetching from PLC in 6.974secs
+Logging  - 2024-06-20 17:17:29.909 -  Data fetching from PLC in 7.039secs
+Logging  - 2024-06-20 17:17:44.114 -  Data fetching from PLC in 6.943secs
+Logging  - 2024-06-20 17:17:59.122 -  Data fetching from PLC in 6.935secs
+Logging  - 2024-06-20 17:18:14.125 -  Data fetching from PLC in 7.012secs
+Logging  - 2024-06-20 17:18:29.125 -  Data fetching from PLC in 6.719secs
+"Alert"  - 2024-06-20 17:18:40.729922 -  PLC is Disconnected 

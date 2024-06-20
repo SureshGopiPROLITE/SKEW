@@ -401,7 +401,7 @@ class PLCDataLogger(QtWidgets.QMainWindow, QDialog):
             message = f"Error - {str(self.current_date)} - {e}"                        
             self.log_to_file(message)
             mail.send_email() 
-    
+
     # def plcDataSnap7(self, db_number, data_type, start_offset, bit_offset):
     #     try:
     #         if data_type == 'BOOL':
@@ -443,6 +443,7 @@ class PLCDataLogger(QtWidgets.QMainWindow, QDialog):
     #         message = f"Error reading trigger status - {e}"
     #         self.log_to_file(message)
     #         return False
+ 
 
     # def reset_trigger(self):
     #     try:
@@ -473,7 +474,7 @@ class PLCDataLogger(QtWidgets.QMainWindow, QDialog):
         db_con.backup_database(conn,  database, cursorWrite, backup_path)
         message = 'File Backuped Successful'
         self.log_to_file(message)
-#############################################           Graph              ###################################################################
+#############################################              Graph                ###################################################################
     def graph(self):
         try:
             self.Ui.progressBar.show()
@@ -574,7 +575,7 @@ class PLCDataLogger(QtWidgets.QMainWindow, QDialog):
         self.monitor_timer = QTimer()
         self.monitor_timer.timeout.connect(self.timer1)
         print("Timer done : ",datetime.now())
-        self.monitor_timer.start(10000)    
+        self.monitor_timer.start(15000)    
 
     def timer1 (self):
         if self.local_conn == False:                

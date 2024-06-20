@@ -206,9 +206,9 @@ border-width: 2px;
      <widget class="QPushButton" name="navImp_2">
       <property name="geometry">
        <rect>
-        <x>10</x>
+        <x>34</x>
         <y>10</y>
-        <width>141</width>
+        <width>91</width>
         <height>31</height>
        </rect>
       </property>
@@ -226,16 +226,58 @@ border-width: 2px;
 </string>
       </property>
       <property name="text">
-       <string> SKEW</string>
+       <string/>
       </property>
       <property name="icon">
        <iconset resource="main_resource.qrc">
-        <normaloff>:/Icons/Logo _ Blue colour_prev_ui.png</normaloff>:/Icons/Logo _ Blue colour_prev_ui.png</iconset>
+        <normaloff>:/Icons/Skew_name_sample__1_-removebg-preview.png</normaloff>:/Icons/Skew_name_sample__1_-removebg-preview.png</iconset>
       </property>
       <property name="iconSize">
        <size>
-        <width>25</width>
-        <height>25</height>
+        <width>80</width>
+        <height>80</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="autoExclusive">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="navImp_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Open Sans</family>
+        <pointsize>14</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: none; 
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="main_resource.qrc">
+        <normaloff>:/Icons/Logo_mixed_colour_sample1-removebg-preview.png</normaloff>:/Icons/Logo_mixed_colour_sample1-removebg-preview.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
        </size>
       </property>
       <property name="checkable">
